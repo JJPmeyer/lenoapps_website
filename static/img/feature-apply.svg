@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Template source -->
+  <rect x="20" y="60" width="50" height="80" rx="4" fill="#f0f8ff" stroke="#20B2AA" stroke-width="2"/>
+  <rect x="25" y="70" width="40" height="6" rx="2" fill="#20B2AA"/>
+  <rect x="25" y="85" width="35" height="6" rx="2" fill="#e0e0e0"/>
+  <rect x="25" y="100" width="30" height="6" rx="2" fill="#e0e0e0"/>
+  <rect x="25" y="115" width="38" height="6" rx="2" fill="#e0e0e0"/>
+  <rect x="25" y="130" width="32" height="6" rx="2" fill="#e0e0e0"/>
+  
+  <!-- Arrow -->
+  <path d="M80 100 L120 100 L115 95 L120 100 L115 105" stroke="#20B2AA" stroke-width="3" fill="none"/>
+  
+  <!-- Target items -->
+  <rect x="130" y="40" width="50" height="30" rx="4" fill="#f0f8ff" stroke="#20B2AA" stroke-width="2"/>
+  <rect x="135" y="50" width="40" height="4" rx="2" fill="#20B2AA"/>
+  <rect x="135" y="60" width="35" height="4" rx="2" fill="#e0e0e0"/>
+  
+  <rect x="130" y="80" width="50" height="30" rx="4" fill="#f0f8ff" stroke="#20B2AA" stroke-width="2"/>
+  <rect x="135" y="90" width="40" height="4" rx="2" fill="#20B2AA"/>
+  <rect x="135" y="100" width="35" height="4" rx="2" fill="#e0e0e0"/>
+  
+  <rect x="130" y="120" width="50" height="30" rx="4" fill="#f0f8ff" stroke="#20B2AA" stroke-width="2"/>
+  <rect x="135" y="130" width="40" height="4" rx="2" fill="#20B2AA"/>
+  <rect x="135" y="140" width="35" height="4" rx="2" fill="#e0e0e0"/>
+  
+  <!-- Lightning bolt for speed -->
+  <path d="M100 160 L95 170 L105 165 L100 175 L110 170 L105 160 Z" fill="#20B2AA"/>
+</svg> 

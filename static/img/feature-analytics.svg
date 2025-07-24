@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chart background -->
+  <rect x="30" y="40" width="140" height="120" rx="4" fill="#f0f8ff" stroke="#20B2AA" stroke-width="2"/>
+  
+  <!-- Chart bars -->
+  <rect x="45" y="140" width="15" height="20" fill="#20B2AA"/>
+  <rect x="70" y="130" width="15" height="30" fill="#20B2AA"/>
+  <rect x="95" y="110" width="15" height="50" fill="#20B2AA"/>
+  <rect x="120" y="90" width="15" height="70" fill="#20B2AA"/>
+  <rect x="145" y="70" width="15" height="90" fill="#20B2AA"/>
+  
+  <!-- Line chart -->
+  <path d="M45 120 L70 110 L95 80 L120 60 L145 40" stroke="#008B8B" stroke-width="3" fill="none"/>
+  <circle cx="45" cy="120" r="4" fill="#008B8B"/>
+  <circle cx="70" cy="110" r="4" fill="#008B8B"/>
+  <circle cx="95" cy="80" r="4" fill="#008B8B"/>
+  <circle cx="120" cy="60" r="4" fill="#008B8B"/>
+  <circle cx="145" cy="40" r="4" fill="#008B8B"/>
+  
+  <!-- Analytics icons -->
+  <circle cx="60" cy="180" r="8" fill="#20B2AA"/>
+  <circle cx="100" cy="180" r="8" fill="#20B2AA"/>
+  <circle cx="140" cy="180" r="8" fill="#20B2AA"/>
+</svg> 

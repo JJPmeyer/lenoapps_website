@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lock base -->
+  <rect x="80" y="120" width="40" height="50" rx="4" fill="#20B2AA"/>
+  <rect x="85" y="125" width="30" height="40" rx="2" fill="#f0f8ff"/>
+  
+  <!-- Lock shackle -->
+  <rect x="75" y="110" width="50" height="20" rx="10" fill="#20B2AA"/>
+  <rect x="85" y="115" width="30" height="10" rx="5" fill="#f0f8ff"/>
+  
+  <!-- Key -->
+  <circle cx="140" cy="140" r="8" fill="#20B2AA"/>
+  <rect x="140" y="132" width="4" height="20" fill="#20B2AA"/>
+  <rect x="140" y="148" width="15" height="4" fill="#20B2AA"/>
+  <rect x="150" y="144" width="4" height="8" fill="#20B2AA"/>
+  
+  <!-- Permission levels -->
+  <circle cx="60" cy="80" r="12" fill="#20B2AA" opacity="0.8"/>
+  <circle cx="100" cy="80" r="12" fill="#20B2AA" opacity="0.6"/>
+  <circle cx="140" cy="80" r="12" fill="#20B2AA" opacity="0.4"/>
+</svg> 
