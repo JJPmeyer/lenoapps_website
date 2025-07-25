@@ -101,6 +101,17 @@ export default function HomepageFeatures(): React.ReactNode {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <div
+          className="text--center padding-horiz--md"
+          style={{ marginTop: '3rem' }}
+        >
+          <Link
+            className="button button--primary button--lg"
+            to="/subitem-template-builder"
+          >
+            Learn More About Subitem Template Builder
+          </Link>
+        </div>
       </div>
     </section>
   )

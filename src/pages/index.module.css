@@ -8,7 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
+  background: linear-gradient(135deg, #2e8555 0%, #205d3b 100%);
   color: white;
 }
 
@@ -28,7 +28,7 @@
 
 .buttons a {
   background: white;
-  color: #20b2aa;
+  color: #2e8555;
   border: 2px solid white;
   transition: all 0.3s ease;
 }

@@ -28,3 +28,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Ensure hero background shows correctly */
+.hero--primary {
+  background: linear-gradient(135deg, #2e8555 0%, #205d3b 100%) !important;
+  color: white;
+}

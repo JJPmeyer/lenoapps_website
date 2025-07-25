@@ -65,10 +65,15 @@ const config: Config = {
       },
       items: [
         {
+          to: '/subitem-template-builder',
+          label: 'Subitem Template Builder',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'subitemTemplateBuilderSidebar',
           position: 'left',
-          label: 'Subitem Template Builder',
+          label: 'Documentation',
         },
         {
           href: 'mailto:support@tinytreesolutions.com',
@@ -85,7 +90,7 @@ const config: Config = {
           items: [
             {
               label: 'Subitem Template Builder',
-              to: '/docs/intro',
+              to: '/subitem-template-builder',
             },
           ],
         },
@@ -93,7 +98,7 @@ const config: Config = {
           title: 'Learn',
           items: [
             {
-              label: 'Subitem Template Builder Docs',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
