@@ -78,7 +78,6 @@ npm run deploy
 ├── docs/                    # Documentation pages
 │   ├── intro.md            # App introduction
 │   ├── installation.md     # Installation guide
-│   ├── quick-start.md      # Quick start guide
 │   ├── pricing/            # Pricing documentation
 │   ├── support/            # Support documentation
 │   └── ...

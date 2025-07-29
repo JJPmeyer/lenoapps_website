@@ -119,12 +119,6 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - Enterprise plans can be billed annually with discounts
 - No long-term contracts required
 
-### Payment Methods
-
-- Credit card (Visa, Mastercard, American Express)
-- PayPal
-- Bank transfer (Enterprise plans only)
-
 ### Cancellation
 
 - Cancel anytime with no penalties
@@ -145,24 +139,11 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - New limits take effect at the next billing cycle
 - No refunds for unused features
 
-## Volume Discounts
-
-### Team Discounts
-
-- 10+ users: 10% discount
-- 25+ users: 20% discount
-- 50+ users: 30% discount
-
-### Annual Discounts
-
-- 10% discount for annual billing (Starter and Growth plans)
-- Custom pricing for Enterprise annual contracts
-
 ## FAQ
 
-### What counts as a template application?
+### What counts as a template usage?
 
-A template application is counted each time you use a template to create subitems, regardless of how many subitems are created.
+Template usage is incremented each time you apply a template to create a subitem.
 
 ### Can I change plans mid-month?
 
@@ -185,7 +166,3 @@ We don't offer refunds for partial months, but you can cancel anytime and contin
 Not sure which plan is right for you? Contact our team:
 
 - **Email**: sales@tinytreesolutions.com
-- **Response Time**: Within 2 hours during business hours
-- **Free Consultation**: We'll help you choose the right plan for your needs
-
-[Contact Sales →](./support/contact)

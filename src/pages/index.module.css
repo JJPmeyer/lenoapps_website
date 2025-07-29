@@ -4,41 +4,214 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 6rem 0;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #2e8555 0%, #205d3b 100%);
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroText {
+  width: 100%;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Screenshots Section */
+.screenshotsSection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.screenshotsContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.screenshotsText {
+  padding-right: 2rem;
+  position: sticky;
+  top: 2rem;
+}
+
+.screenshotsTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.screenshotsSubtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.screenshotsButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.screenshotsButtons a {
+  background: #2e8555;
+  color: white;
+  border: 2px solid #2e8555;
+  transition: all 0.3s ease;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.screenshotsButtons a:hover {
+  background: #205d3b;
+  border-color: #205d3b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 133, 85, 0.3);
+  text-decoration: none;
   color: white;
 }
 
+.screenshotsImages {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imageGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 100%;
+}
+
+.screenshotImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.screenshotImage:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design */
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+  .heroContent {
+    padding: 0 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .screenshotsContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .screenshotsText {
+    padding-right: 0;
+    position: static;
+  }
+
+  .screenshotsTitle {
+    font-size: 2rem;
+  }
+
+  .screenshotsSubtitle {
+    font-size: 1rem;
+  }
+
+  .screenshotsButtons {
+    justify-content: center;
+  }
+
+  .imageGrid {
+    align-items: center;
+  }
+
+  .screenshotImage {
+    max-width: 600px;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
-}
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 4rem 0;
+  }
 
-.buttons a {
-  background: white;
-  color: #2e8555;
-  border: 2px solid white;
-  transition: all 0.3s ease;
-}
+  .heroTitle {
+    font-size: 2rem;
+  }
 
-.buttons a:hover {
-  background: transparent;
-  color: white;
-  border-color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+
+  .screenshotsSection {
+    padding: 4rem 0;
+  }
+
+  .screenshotsTitle {
+    font-size: 1.8rem;
+  }
+
+  .screenshotsSubtitle {
+    font-size: 0.9rem;
+  }
+
+  .screenshotsButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshotImage {
+    max-width: 100%;
+  }
 }
 
 /* Feature section styling */
@@ -53,36 +226,8 @@
   margin-bottom: 1rem;
 }
 
-/* Hero title styling */
-.hero__title {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.hero__subtitle {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
-
-/* Responsive design */
+/* Responsive design for features */
 @media screen and (max-width: 768px) {
-  .hero__title {
-    font-size: 2rem;
-  }
-
-  .hero__subtitle {
-    font-size: 1.2rem;
-  }
-
-  .buttons {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
   .featureSvg {
     height: 150px;
     width: 150px;
