@@ -12,132 +12,67 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 ### What's Included
 
-- ✅ 3 template applications per month
-- ✅ Unlimited template creation and storage
-- ✅ Basic permission controls (Private templates only)
-- ✅ Standard column support
-- ✅ Email support
-
-### Best For
-
-- Individual users testing the app
-- Small teams with minimal subitem needs
-- Proof of concept and evaluation
-
-**Price: Free forever**
+- ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
+- ✅ Unlimited users
+- ✅ Smart column mapping for mismatches
+- ✅ Apply up to 3 subitem templates per month
 
 ## Starter Plan
 
-**$5/month per user**
+**$5/month**
 
-**Ideal for small teams and regular users**
+**Perfect for small teams getting organized**
 
 ### What's Included
 
-- ✅ 15 template applications per month
-- ✅ Advanced permission controls
-- ✅ Template sharing with team members
+- ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
+- ✅ Unlimited users
+- ✅ Smart column mapping for mismatches
+- ✅ Apply up to 30 subitem templates per month
 - ✅ Priority email support
 - ✅ All Free plan features
 
-### Best For
-
-- Small teams (2-10 users)
-- Regular subitem creation workflows
-- Teams that need to share templates
-
-**Price: $5/month per user**
-
 ## Growth Plan
 
-**$15/month per user**
+**$20/month**
 
-**Perfect for growing teams and advanced workflows**
+**Ideal for growing teams with advanced needs**
 
 ### What's Included
 
-- ✅ 40 template applications per month
-- ✅ Usage analytics and insights
-- ✅ Template versioning and history
-- ✅ Advanced collaboration features
-- ✅ Custom column mapping
+- ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
+- ✅ Unlimited users
+- ✅ Template permission controls
+- ✅ Smart column mapping for mismatches
+- ✅ Apply up to 70 subitem templates per month
 - ✅ All Starter plan features
 
-### Best For
+## Scale Plan
 
-- Growing teams (10-50 users)
-- Organizations with complex workflows
-- Teams that need analytics and reporting
+**$40/month**
 
-**Price: $15/month per user**
-
-## Enterprise Plan
-
-**Custom pricing**
-
-**For large organizations with unlimited needs**
+**Unlimited power with no restrictions**
 
 ### What's Included
 
-- ✅ Unlimited template applications
-- ✅ Custom integrations and API access
-- ✅ Dedicated customer success manager
-- ✅ Custom training and onboarding
-- ✅ Advanced security features
+- ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
+- ✅ Unlimited users
+- ✅ Template permission controls
+- ✅ Smart column mapping for mismatches
+- ✅ Apply unlimited subitem templates per month
 - ✅ All Growth plan features
-
-### Best For
-
-- Large enterprises (50+ users)
-- Organizations with complex requirements
-- Teams needing custom integrations
-
-**Price: Contact us for custom pricing**
 
 ## Plan Comparison
 
-| Feature               | Free      | Starter   | Growth    | Enterprise |
-| --------------------- | --------- | --------- | --------- | ---------- |
-| Template Applications | 3/month   | 15/month  | 40/month  | Unlimited  |
-| Template Creation     | Unlimited | Unlimited | Unlimited | Unlimited  |
-| Template Storage      | Unlimited | Unlimited | Unlimited | Unlimited  |
-| Private Templates     | ✅        | ✅        | ✅        | ✅         |
-| Team Templates        | ❌        | ✅        | ✅        | ✅         |
-| Workspace Templates   | ❌        | ❌        | ✅        | ✅         |
-| Usage Analytics       | ❌        | ❌        | ✅        | ✅         |
-| Template Versioning   | ❌        | ❌        | ✅        | ✅         |
-| Custom Column Mapping | ❌        | ❌        | ✅        | ✅         |
-| API Access            | ❌        | ❌        | ❌        | ✅         |
-| Dedicated Support     | ❌        | ❌        | ❌        | ✅         |
-| Custom Training       | ❌        | ❌        | ❌        | ✅         |
-
-## Billing and Payment
-
-### Billing Cycle
-
-- All plans are billed monthly
-- Enterprise plans can be billed annually with discounts
-- No long-term contracts required
-
-### Cancellation
-
-- Cancel anytime with no penalties
-- Access continues until the end of your billing period
-- No refunds for partial months
-
-## Upgrading and Downgrading
-
-### Upgrading
-
-- Upgrade anytime from your account settings
-- New limits take effect immediately
-- Prorated billing for the current month
-
-### Downgrading
-
-- Downgrade anytime from your account settings
-- New limits take effect at the next billing cycle
-- No refunds for unused features
+| Feature                      | Free      | Starter   | Growth    | Scale     |
+| ---------------------------- | --------- | --------- | --------- | --------- |
+| Price                        | Free      | $5/month  | $20/month | $40/month |
+| Apply Templates              | 3/month   | 30/month  | 70/month  | Unlimited |
+| Template Creation            | Unlimited | Unlimited | Unlimited | Unlimited |
+| Unlimited Users              | ✅        | ✅        | ✅        | ✅        |
+| Smart Column Mapping         | ✅        | ✅        | ✅        | ✅        |
+| Template Permission Controls | ❌        | ❌        | ✅        | ✅        |
+| All Column Types Support     | ✅        | ✅        | ✅        | ✅        |
 
 ## FAQ
 
@@ -145,24 +80,14 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 Template usage is incremented each time you apply a template to create a subitem.
 
-### Can I change plans mid-month?
-
-Yes, you can upgrade or downgrade at any time. Upgrades take effect immediately, while downgrades take effect at the next billing cycle.
-
 ### What happens if I exceed my monthly limit?
 
 You'll receive a notification when you're close to your limit. Once exceeded, you'll need to upgrade to continue using the app.
 
 ### Is there a free trial?
 
-The Free plan serves as our free trial. You can use it indefinitely with the 3 applications per month limit.
+The Free plan serves as our free trial. You can use it indefinitely with applying 3 templates per month limit.
 
-### Do you offer refunds?
+### Do you offer yearly pricing?
 
-We don't offer refunds for partial months, but you can cancel anytime and continue using the app until the end of your billing period.
-
-## Need Help Choosing?
-
-Not sure which plan is right for you? Contact our team:
-
-- **Email**: sales@tinytreesolutions.com
+Yes! We offer yearly pricing with a 15% discount on Growth and Scale plans.

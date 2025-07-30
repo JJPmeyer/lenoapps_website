@@ -28,7 +28,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Support',
-      items: ['support/contact', 'support/faq'],
+      items: ['support/contact'],
     },
   ],
 }

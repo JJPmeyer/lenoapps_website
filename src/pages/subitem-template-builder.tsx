@@ -85,7 +85,7 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
             <div className={styles.stepsGrid}>
               <Step
                 number={1}
-                title="Create subitems"
+                title="Create Subitems"
                 description="First, create the subitems on your board that you want to use as recurring templates. Once created, these subitems will appear in the app where you can save them as reusable templates for future use."
                 image="/img/Step1_SubitemBuilder.png"
               />
