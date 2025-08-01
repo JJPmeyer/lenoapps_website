@@ -98,7 +98,7 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
               <Step
                 number={3}
                 title="Set Permissions & Share"
-                description="Edit the values of your template if needed and set permissions to control who can view and edit the template on this board."
+                description="Edit the values of your template and set permissions to control who can view and edit the template on this board."
                 image="/img/Step3_SubitemBuilder.png"
               />
               <Step

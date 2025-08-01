@@ -29,8 +29,6 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - ✅ Unlimited users
 - ✅ Smart column mapping for mismatches
 - ✅ Apply up to 30 subitem templates per month
-- ✅ Priority email support
-- ✅ All Free plan features
 
 ## Growth Plan
 
@@ -45,7 +43,6 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - ✅ Template permission controls
 - ✅ Smart column mapping for mismatches
 - ✅ Apply up to 70 subitem templates per month
-- ✅ All Starter plan features
 
 ## Scale Plan
 
@@ -60,7 +57,6 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - ✅ Template permission controls
 - ✅ Smart column mapping for mismatches
 - ✅ Apply unlimited subitem templates per month
-- ✅ All Growth plan features
 
 ## Plan Comparison
 
