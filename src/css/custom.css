@@ -17,20 +17,41 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
 /* Ensure hero background shows correctly */
 .hero--primary {
   background: linear-gradient(135deg, #2e8555 0%, #205d3b 100%) !important;
   color: white;
+}
+
+/* Fix logo aspect ratio */
+.navbar__logo img {
+  object-fit: contain !important;
+  height: auto !important;
+  max-height: 100px !important;
+}
+
+/* Adjust navbar height to match logo */
+.navbar {
+  min-height: 120px !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.navbar__inner {
+  min-height: 120px !important;
+  align-items: center !important;
+}
+
+/* Position logo in top left corner */
+.navbar__logo {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+}
+
+/* Position navigation items to the right of the logo */
+.navbar__items {
+  margin-left: auto !important;
+  padding-left: 200px !important;
 }

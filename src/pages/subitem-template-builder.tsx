@@ -73,7 +73,7 @@ function Benefit({
 export default function SubitemTemplateBuilder(): React.ReactNode {
   return (
     <Layout
-      title="Subitem Template Builder - Tiny Tree Solutions"
+      title="Subitem Template Builder - Leno Apps"
       description="Create, save, and apply predefined templates for subitems. Save hours of repetitive work with intelligent column mapping and smart permissions."
     >
       <SubitemTemplateBuilderHeader />

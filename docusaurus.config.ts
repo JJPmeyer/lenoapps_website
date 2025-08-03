@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic'
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Tiny Tree Solutions',
+  title: 'Leno Apps',
   tagline: 'We build powerful apps that enhance your monday.com experience',
   favicon: 'img/favicon.ico',
 
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://tinytreesolutions.com',
+  url: 'https://lenoapps.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'tinytreesolutions', // Usually your GitHub org/user name.
-  projectName: 'tiny-tree-solutions-website', // Usually your repo name.
+  organizationName: 'lenoapps', // Usually your GitHub org/user name.
+  projectName: 'leno-apps-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,12 +54,17 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/tiny-tree-social-card.jpg',
+    image: 'img/leno-apps-social-card.jpg',
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'Tiny Tree Solutions',
+      title: 'Home',
       logo: {
-        alt: 'Tiny Tree Solutions Logo',
-        src: 'img/tiny-tree-logo.svg',
+        alt: 'Leno Apps Logo',
+        src: 'img/Leno_Apps_Website_logo.png',
       },
       items: [
         {
@@ -74,7 +79,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'mailto:support@tinytreesolutions.com',
+          href: 'mailto:support@lenoapps.com',
           label: 'Contact Us',
           position: 'right',
         },
@@ -119,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tiny Tree Solutions. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Leno Apps. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

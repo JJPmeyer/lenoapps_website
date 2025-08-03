@@ -5,8 +5,8 @@ import Heading from '@theme/Heading'
 export default function Privacy(): React.ReactNode {
   return (
     <Layout
-      title="Privacy Policy - Tiny Tree Solutions"
-      description="Privacy Policy for Subitem Template Builder - Tiny Tree Solutions"
+      title="Privacy Policy - Leno Apps"
+      description="Privacy Policy for Subitem Template Builder - Leno Apps"
     >
       <main className="container margin-vert--lg">
         <Heading as="h1">Privacy Policy</Heading>
@@ -313,12 +313,10 @@ export default function Privacy(): React.ReactNode {
           <ul>
             <li>
               <strong>Email:</strong>{' '}
-              <a href="mailto:support@tinytreesolutions.com">
-                support@tinytreesolutions.com
-              </a>
+              <a href="mailto:support@lenoapps.com">support@lenoapps.com</a>
             </li>
             <li>
-              <strong>Domain:</strong> tinytreesolutions.com
+              <strong>Domain:</strong> lenoapps.com
             </li>
           </ul>
         </section>

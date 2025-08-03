@@ -5,8 +5,8 @@ import Heading from '@theme/Heading'
 export default function Terms(): React.ReactNode {
   return (
     <Layout
-      title="Terms of Service - Tiny Tree Solutions"
-      description="Terms of Service for Subitem Template Builder - Tiny Tree Solutions"
+      title="Terms of Service - Leno Apps"
+      description="Terms of Service for Subitem Template Builder - Leno Apps"
     >
       <main className="container margin-vert--lg">
         <Heading as="h1">Terms of Service</Heading>
@@ -130,8 +130,8 @@ export default function Terms(): React.ReactNode {
           <Heading as="h3">5.1 App Ownership</Heading>
           <p>
             The App and its original content, features, and functionality are
-            owned by Tiny Tree Solutions and are protected by international
-            copyright, trademark, and other intellectual property laws.
+            owned by Leno Apps and are protected by international copyright,
+            trademark, and other intellectual property laws.
           </p>
 
           <Heading as="h3">5.2 User Content</Heading>
@@ -302,12 +302,10 @@ export default function Terms(): React.ReactNode {
           <ul>
             <li>
               <strong>Email:</strong>{' '}
-              <a href="mailto:support@tinytreesolutions.com">
-                support@tinytreesolutions.com
-              </a>
+              <a href="mailto:support@lenoapps.com">support@lenoapps.com</a>
             </li>
             <li>
-              <strong>Domain:</strong> tinytreesolutions.com
+              <strong>Domain:</strong> lenoapps.com
             </li>
           </ul>
         </section>

@@ -5,8 +5,8 @@ import Heading from '@theme/Heading'
 export default function Cookies(): React.ReactNode {
   return (
     <Layout
-      title="Cookies Policy - Tiny Tree Solutions"
-      description="Cookies Policy for Tiny Tree Solutions"
+      title="Cookies Policy - Leno Apps"
+      description="Cookies Policy for Leno Apps"
     >
       <main className="container margin-vert--lg">
         <Heading as="h1">Cookies Policy</Heading>
@@ -32,10 +32,7 @@ export default function Cookies(): React.ReactNode {
           <Heading as="h2">Contact Us</Heading>
           <p>
             If you have any questions about our Cookies Policy, please contact
-            us at{' '}
-            <a href="mailto:support@tinytreesolutions.com">
-              support@tinytreesolutions.com
-            </a>
+            us at <a href="mailto:support@lenoapps.com">support@lenoapps.com</a>
           </p>
         </section>
       </main>

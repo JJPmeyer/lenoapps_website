@@ -30,7 +30,7 @@ If you prefer to install through the monday.com Apps Marketplace, follow these s
 
 ### Step 2: Install Subitem Template Builder
 
-- Locate Subitem Template Builder by Tiny Tree Solutions in the search results.
+- Locate Subitem Template Builder by Leno Apps in the search results.
 - Click the Install App button.
 - Follow the on-screen instructions to review and approve the required permissions.
 

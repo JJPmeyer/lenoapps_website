@@ -1,10 +1,10 @@
-# Tiny Tree Solutions Website
+# Leno Apps Website
 
-This is the official website for Tiny Tree Solutions, showcasing our monday.com apps and providing comprehensive documentation.
+This is the official website for Leno Apps, showcasing our monday.com apps and providing comprehensive documentation.
 
 ## About
 
-Tiny Tree Solutions builds powerful apps that enhance your monday.com experience. Our applications are designed to save you time, simplify your processes, and help your team work smarter.
+Leno Apps builds powerful apps that enhance your monday.com experience. Our applications are designed to save you time, simplify your processes, and help your team work smarter.
 
 ## Current Apps
 
@@ -101,9 +101,9 @@ npm run deploy
 
 ## Contact
 
-- **Website**: https://tinytreesolutions.com
-- **Support**: support@tinytreesolutions.com
-- **Sales**: sales@tinytreesolutions.com
+- **Website**: https://lenoapps.com
+- **Support**: support@lenoapps.com
+- **Sales**: sales@lenoapps.com
 
 ## License
 
@@ -111,4 +111,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by Tiny Tree Solutions**
+**Built with ❤️ by Leno Apps**
