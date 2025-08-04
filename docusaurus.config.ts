@@ -117,14 +117,10 @@ const config: Config = {
               label: 'Terms of Service',
               to: '/terms',
             },
-            {
-              label: 'Cookies Policy',
-              to: '/cookies',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Leno Apps. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Leno Apps.`,
     },
     prism: {
       theme: prismThemes.github,
