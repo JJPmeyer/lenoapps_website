@@ -9,7 +9,7 @@ export default function Terms(): React.ReactNode {
       description="Terms of Service for Subitem Template Builder - Leno Apps"
     >
       <main className="container margin-vert--lg">
-        <Heading as="h1">Terms of Service</Heading>
+        <Heading as="h1">Terms of Service - Subitem Template Builder</Heading>
         <p>
           <strong>Last Updated:</strong> {new Date().toLocaleDateString()}
         </p>
@@ -17,307 +17,355 @@ export default function Terms(): React.ReactNode {
         <section>
           <Heading as="h2">1. Acceptance of Terms</Heading>
           <p>
-            By accessing and using the Subitem Template Builder application
-            ("the App") on the monday.com marketplace, you agree to be bound by
-            these Terms of Service ("Terms"). If you do not agree to these
-            Terms, please do not use the App.
+            By installing, accessing, or using the Subitem Template Builder
+            application ("App," "Service," "we," "us," or "our"), you ("User,"
+            "you," or "your") agree to be bound by these Terms of Service
+            ("Terms"). If you do not agree to these Terms, do not use the App.
           </p>
         </section>
 
         <section>
           <Heading as="h2">2. Description of Service</Heading>
           <p>
-            The Subitem Template Builder is a monday.com marketplace application
+            Subitem Template Builder is a monday.com marketplace application
             that allows users to:
           </p>
           <ul>
-            <li>Create and save templates for subitems</li>
+            <li>Create and save subitem templates with various column types</li>
             <li>
-              Apply templates to create multiple subitems with predefined data
+              Apply saved templates to create multiple subitems efficiently
             </li>
             <li>Manage template permissions and sharing</li>
-            <li>Track usage for subscription management</li>
+            <li>Track usage for subscription plan management</li>
+            <li>Map template columns to board columns automatically</li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">3. User Accounts and Responsibilities</Heading>
+          <Heading as="h2">3. Eligibility and Account Requirements</Heading>
 
-          <Heading as="h3">3.1 Account Requirements</Heading>
+          <Heading as="h3">3.1 monday.com Account Required</Heading>
           <ul>
-            <li>You must have a valid monday.com account to use the App</li>
+            <li>You must have a valid monday.com account to use this App</li>
+            <li>You must comply with monday.com's Terms of Service</li>
             <li>
               You are responsible for maintaining the security of your
               monday.com account
             </li>
-            <li>
-              You must provide accurate and complete information when using the
-              App
-            </li>
           </ul>
 
-          <Heading as="h3">3.2 Acceptable Use</Heading>
-          <p>
-            You agree to use the App only for lawful purposes and in accordance
-            with these Terms. You agree not to:
-          </p>
+          <Heading as="h3">3.2 Authorization</Heading>
           <ul>
-            <li>Use the App to violate any applicable laws or regulations</li>
             <li>
-              Attempt to gain unauthorized access to the App or monday.com
-              systems
+              You must authorize the App to access your monday.com data through
+              the required permissions
             </li>
             <li>
-              Use the App to create templates that contain malicious content or
-              violate intellectual property rights
-            </li>
-            <li>Interfere with or disrupt the App's functionality</li>
-            <li>
-              Use the App for any commercial purpose without proper
-              authorization
+              You can revoke authorization at any time through monday.com's app
+              management interface
             </li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">4. Subscription and Payment Terms</Heading>
+          <Heading as="h2">4. App Permissions and Data Access</Heading>
 
-          <Heading as="h3">4.1 Subscription Plans</Heading>
-          <p>The App offers the following subscription plans:</p>
+          <Heading as="h3">4.1 Required Permissions</Heading>
+          <p>The App requires the following monday.com permissions:</p>
           <ul>
             <li>
-              <strong>Free Plan:</strong> Limited to 3 template applications per
-              month
+              <strong>me:read:</strong> To identify users and manage template
+              permissions
             </li>
             <li>
-              <strong>Starter Plan:</strong> $5/month for up to 30 template
-              applications per month
+              <strong>boards:read:</strong> To read board structure and existing
+              subitem data
             </li>
             <li>
-              <strong>Growth Plan:</strong> $20/month for up to 70 template
-              applications per month with permission controls
-            </li>
-            <li>
-              <strong>Scale Plan:</strong> $40/month for unlimited template
-              applications with permission controls
+              <strong>boards:write:</strong> To create and modify subitems from
+              templates
             </li>
           </ul>
 
-          <Heading as="h3">4.2 Payment and Billing</Heading>
+          <Heading as="h3">4.2 Scope of Access</Heading>
           <ul>
-            <li>Payments are processed through monday.com's billing system</li>
-            <li>Subscriptions automatically renew unless cancelled</li>
+            <li>The App only accesses boards you explicitly authorize</li>
             <li>
-              You may cancel your subscription at any time through your
-              monday.com account
+              Data access is limited to functionality described in this
+              agreement
             </li>
-            <li>No refunds are provided for partial months of service</li>
-          </ul>
-
-          <Heading as="h3">4.3 Usage Limits</Heading>
-          <ul>
-            <li>
-              Free plan users are limited to 3 template applications per month
-            </li>
-            <li>Paid plan users are subject to their plan's monthly limits</li>
-            <li>Usage is tracked and enforced automatically by the App</li>
+            <li>The App does not access data outside of authorized boards</li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">5. Intellectual Property</Heading>
+          <Heading as="h2">5. Subscription Plans and Billing</Heading>
 
-          <Heading as="h3">5.1 App Ownership</Heading>
-          <p>
-            The App and its original content, features, and functionality are
-            owned by Leno Apps and are protected by international copyright,
-            trademark, and other intellectual property laws.
-          </p>
+          <Heading as="h3">5.1 Plan Types</Heading>
 
-          <Heading as="h3">5.2 User Content</Heading>
           <ul>
             <li>
-              You retain ownership of any templates and data you create using
-              the App
+              Please see the pricing section of the app on the monday.com
+              marketplace for the latest pricing.
             </li>
+          </ul>
+
+          <Heading as="h3">5.2 Billing and Payment</Heading>
+          <ul>
             <li>
-              You grant us a limited license to store and process your templates
-              for App functionality
+              Billing is handled through monday.com's marketplace billing system
             </li>
+          </ul>
+
+          <Heading as="h3">5.3 Plan Changes and Cancellation</Heading>
+          <ul>
             <li>
-              You are responsible for ensuring you have the right to use any
-              content in your templates
+              Billing is handled through monday.com's marketplace billing system
             </li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">6. Privacy and Data Protection</Heading>
+          <Heading as="h2">6. Acceptable Use</Heading>
 
-          <Heading as="h3">6.1 Data Collection</Heading>
-          <p>
-            We collect and process data as described in our Privacy Policy,
-            which is incorporated into these Terms by reference.
-          </p>
-
-          <Heading as="h3">6.2 Data Security</Heading>
+          <Heading as="h3">6.1 Permitted Use</Heading>
+          <p>You may use the App to:</p>
           <ul>
             <li>
-              We implement appropriate security measures to protect your data
+              Create and manage subitem templates for legitimate business
+              purposes
+            </li>
+            <li>Share templates with authorized team members</li>
+            <li>Automate subitem creation within your organization</li>
+          </ul>
+
+          <Heading as="h3">6.2 Prohibited Use</Heading>
+          <p>You may not:</p>
+          <ul>
+            <li>Use the App for illegal or unauthorized purposes</li>
+            <li>Attempt to reverse engineer, decompile, or hack the App</li>
+            <li>
+              Create templates containing harmful, offensive, or inappropriate
+              content
+            </li>
+            <li>Share your account credentials with unauthorized users</li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">7. Intellectual Property</Heading>
+
+          <Heading as="h3">7.1 App Ownership</Heading>
+          <ul>
+            <li>
+              The App, including all code, features, and functionality, is owned
+              by us and protected by intellectual property laws
             </li>
             <li>
-              All data is stored within monday.com's secure infrastructure
+              These Terms grant you a limited, non-exclusive, non-transferable
+              license to use the App
+            </li>
+          </ul>
+
+          <Heading as="h3">7.2 User Content</Heading>
+          <ul>
+            <li>You retain ownership of your template data and content</li>
+            <li>
+              You grant us a limited license to process your data to provide the
+              Service
             </li>
             <li>
-              We do not store sensitive data outside of monday.com's systems
+              You are responsible for ensuring you have rights to any content
+              you include in templates
             </li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">7. User Communications</Heading>
+          <Heading as="h2">8. Data and Privacy</Heading>
 
-          <Heading as="h3">7.1 Service-Related Communications</Heading>
+          <Heading as="h3">8.1 Data Processing</Heading>
+          <ul>
+            <li>We process your data in accordance with our Privacy Policy</li>
+            <li>
+              All data is stored securely within monday.com's infrastructure
+            </li>
+            <li>
+              We do not share your data with third parties except as described
+              in our Privacy Policy
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">10. User Communications</Heading>
+
+          <Heading as="h3">10.1 Service Communications</Heading>
           <p>We may contact you regarding:</p>
           <ul>
-            <li>Important updates to the App</li>
-            <li>Security notifications</li>
-            <li>Subscription and billing matters</li>
-            <li>Technical support and troubleshooting</li>
-            <li>Service announcements and maintenance</li>
+            <li>Critical service updates or security issues</li>
+            <li>Billing and subscription matters</li>
+            <li>Support requests you initiate</li>
+            <li>Legal or compliance requirements</li>
           </ul>
 
-          <Heading as="h3">7.2 Marketing Communications</Heading>
+          <Heading as="h3">10.2 Marketing Communications</Heading>
           <ul>
             <li>
-              We will not send marketing communications without your explicit
-              consent
+              We do not send marketing emails or promotional communications
             </li>
-            <li>You may opt out of marketing communications at any time</li>
-            <li>Service-related communications cannot be opted out of</li>
+            <li>We do not contact users for sales or marketing purposes</li>
+            <li>All communications are strictly service-related</li>
           </ul>
 
-          <Heading as="h3">7.3 Communication Methods</Heading>
-          <p>We may contact you through:</p>
+          <Heading as="h3">10.3 Communication Preferences</Heading>
           <ul>
-            <li>In-app notifications</li>
-            <li>Email (for important service matters)</li>
-            <li>monday.com's notification system</li>
+            <li>
+              Service-related communications are necessary for app functionality
+            </li>
+            <li>You cannot opt out of critical service communications</li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">8. Disclaimers and Limitations</Heading>
+          <Heading as="h2">11. Disclaimers and Limitations</Heading>
 
-          <Heading as="h3">8.1 Service Availability</Heading>
+          <Heading as="h3">11.1 Service Disclaimer</Heading>
           <ul>
-            <li>The App is provided "as is" and "as available"</li>
-            <li>We do not guarantee uninterrupted or error-free service</li>
+            <li>The App is provided "as is" without warranties of any kind</li>
             <li>
-              The App may be temporarily unavailable for maintenance or updates
+              We do not guarantee that the App will meet all your requirements
+            </li>
+            <li>
+              We are not responsible for data loss due to user error or misuse
             </li>
           </ul>
 
-          <Heading as="h3">8.2 Data Accuracy</Heading>
+          <Heading as="h3">11.2 Limitation of Liability</Heading>
           <ul>
             <li>
-              We do not guarantee the accuracy of template data or results
+              Our liability is limited to the amount you paid for the Service in
+              the 12 months preceding the claim
             </li>
             <li>
-              You are responsible for verifying the correctness of templates you
-              create
+              We are not liable for indirect, incidental, or consequential
+              damages
             </li>
-            <li>We are not liable for any errors in template application</li>
-          </ul>
-
-          <Heading as="h3">8.3 Limitation of Liability</Heading>
-          <p>
-            To the maximum extent permitted by law, we shall not be liable for
-            any indirect, incidental, special, consequential, or punitive
-            damages arising from your use of the App.
-          </p>
-        </section>
-
-        <section>
-          <Heading as="h2">9. Termination</Heading>
-
-          <Heading as="h3">9.1 Termination by User</Heading>
-          <p>You may stop using the App at any time by:</p>
-          <ul>
-            <li>Uninstalling the App from your monday.com account</li>
-            <li>Cancelling your subscription (if applicable)</li>
-          </ul>
-
-          <Heading as="h3">9.2 Termination by Us</Heading>
-          <p>We may terminate or suspend your access to the App if:</p>
-          <ul>
-            <li>You violate these Terms</li>
-            <li>You engage in fraudulent or illegal activities</li>
-            <li>Required by law or regulation</li>
-          </ul>
-
-          <Heading as="h3">9.3 Effect of Termination</Heading>
-          <p>Upon termination:</p>
-          <ul>
-            <li>Your access to the App will cease</li>
             <li>
-              We will delete your data within 10 days (as required by
-              monday.com)
+              Some jurisdictions do not allow liability limitations, so these
+              may not apply to you
             </li>
-            <li>Any unused subscription fees are non-refundable</li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">10. Changes to Terms</Heading>
+          <Heading as="h2">12. Indemnification</Heading>
           <p>
-            We reserve the right to modify these Terms at any time. We will
-            notify users of material changes through:
+            You agree to indemnify and hold us harmless from claims arising
+            from:
           </p>
           <ul>
-            <li>In-app notifications</li>
-            <li>Email notifications</li>
-            <li>Updates to the monday.com marketplace listing</li>
+            <li>Your use of the App in violation of these Terms</li>
+            <li>Your violation of any third-party rights</li>
+            <li>Your violation of applicable laws or regulations</li>
           </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">13. Termination</Heading>
+
+          <Heading as="h3">13.1 Termination by You</Heading>
+          <ul>
+            <li>
+              You may terminate your use of the App at any time by uninstalling
+              it from your monday.com account
+            </li>
+            <li>
+              Subscription cancellations are handled through monday.com's
+              billing system
+            </li>
+          </ul>
+
+          <Heading as="h3">13.2 Termination by Us</Heading>
+          <p>We may terminate your access if you:</p>
+          <ul>
+            <li>Violate these Terms or our Privacy Policy</li>
+            <li>Use the App in a way that harms our Service or other users</li>
+            <li>Fail to pay subscription fees when due</li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">14. Changes to Terms</Heading>
+
+          <Heading as="h3">14.1 Modifications</Heading>
+          <ul>
+            <li>We may modify these Terms at any time</li>
+            <li>
+              Material changes will be communicated through the App or email
+            </li>
+            <li>
+              Continued use after changes constitutes acceptance of new Terms
+            </li>
+          </ul>
+
+          <Heading as="h3">14.2 Version Control</Heading>
+          <ul>
+            <li>
+              The "Last Updated" date indicates when Terms were last modified
+            </li>
+            <li>Previous versions are not maintained or accessible</li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">15. Governing Law and Disputes</Heading>
+
+          <Heading as="h3">15.1 Governing Law</Heading>
           <p>
-            Continued use of the App after changes constitutes acceptance of the
-            new Terms.
+            These Terms are governed by UK law, without regard to conflict of
+            law principles.
           </p>
         </section>
 
         <section>
-          <Heading as="h2">11. Governing Law</Heading>
+          <Heading as="h2">16. Integration with monday.com</Heading>
+
+          <Heading as="h3">16.1 monday.com Terms</Heading>
+          <ul>
+            <li>
+              Your use of the App is also subject to monday.com's Terms of
+              Service
+            </li>
+            <li>
+              In case of conflict between these Terms and monday.com's Terms,
+              monday.com's Terms prevail for platform-related matters
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">17. Miscellaneous</Heading>
+
+          <Heading as="h3">17.1 Entire Agreement</Heading>
           <p>
-            These Terms shall be governed by and construed in accordance with
-            the laws of the United States, without regard to its conflict of law
-            provisions.
+            These Terms, together with our Privacy Policy, constitute the entire
+            agreement between you and us.
           </p>
         </section>
 
         <section>
-          <Heading as="h2">12. Contact Information</Heading>
-          <p>
-            For questions about these Terms of Service, please contact us at:
-          </p>
+          <Heading as="h2">18. Contact Information</Heading>
+          <p>For questions about these Terms of Service:</p>
           <ul>
             <li>
               <strong>Email:</strong>{' '}
               <a href="mailto:support@lenoapps.com">support@lenoapps.com</a>
             </li>
             <li>
-              <strong>Domain:</strong> lenoapps.com
+              <strong>Website:</strong> www.lenoapps.com
             </li>
           </ul>
-        </section>
-
-        <section>
-          <Heading as="h2">13. Severability</Heading>
-          <p>
-            If any provision of these Terms is found to be unenforceable or
-            invalid, that provision will be limited or eliminated to the minimum
-            extent necessary so that the Terms will otherwise remain in full
-            force and effect.
-          </p>
         </section>
       </main>
     </Layout>

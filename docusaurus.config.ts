@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic'
 const config: Config = {
   title: 'Leno Apps',
   tagline: 'We build powerful apps that enhance your monday.com experience',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

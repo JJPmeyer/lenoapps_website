@@ -9,7 +9,7 @@ export default function Privacy(): React.ReactNode {
       description="Privacy Policy for Subitem Template Builder - Leno Apps"
     >
       <main className="container margin-vert--lg">
-        <Heading as="h1">Privacy Policy</Heading>
+        <Heading as="h1">Privacy Policy - Subitem Template Builder</Heading>
         <p>
           <strong>Last Updated:</strong> {new Date().toLocaleDateString()}
         </p>
@@ -28,288 +28,366 @@ export default function Privacy(): React.ReactNode {
         <section>
           <Heading as="h2">2. Information We Collect</Heading>
 
-          <Heading as="h3">2.1 Information You Provide</Heading>
+          <Heading as="h3">2.1 User Information</Heading>
           <ul>
             <li>
-              <strong>User Profile Information:</strong> When you use our app,
-              we collect your monday.com user profile information including your
-              name, email address, and user ID.
+              <strong>User Profile Data:</strong> We collect your monday.com
+              user ID, name, and email address through the me:read permission
+              for template permissions management and user identification.
             </li>
             <li>
-              <strong>Board Data:</strong> We access and process board data that
-              you authorize us to read and modify, including board structure,
-              column configurations, and item data.
+              <strong>Account Information:</strong> We collect your monday.com
+              account ID for subscription and usage tracking purposes.
             </li>
           </ul>
 
-          <Heading as="h3">2.2 Information We Collect Automatically</Heading>
+          <Heading as="h3">2.2 Board and Item Data</Heading>
           <ul>
             <li>
-              <strong>Usage Data:</strong> We track how many templates you
-              create and apply each month for subscription management purposes.
+              <strong>Board Structure:</strong> We read board column
+              configurations, types, and metadata to ensure template
+              compatibility.
             </li>
             <li>
-              <strong>App Settings:</strong> We store your template
-              configurations and preferences using monday.com's secure storage.
+              <strong>Subitem Data:</strong> We access existing subitem names,
+              column values, and properties to populate templates and display
+              current data.
+            </li>
+            <li>
+              <strong>Item Context:</strong> We access the current item ID and
+              board ID where the app is being used.
             </li>
           </ul>
-        </section>
 
-        <section>
-          <Heading as="h2">3. How We Use Your Information</Heading>
-          <p>We use the collected information for the following purposes:</p>
+          <Heading as="h3">2.3 Application Data</Heading>
           <ul>
             <li>
-              <strong>Template Management:</strong> To create, save, and apply
-              subitem templates to your monday.com boards
+              <strong>Template Configurations:</strong> We store your saved
+              subitem templates including column mappings and values.
             </li>
             <li>
-              <strong>Subscription Management:</strong> To track usage and
-              manage your subscription plan
+              <strong>Usage Metrics:</strong> We track monthly template
+              application counts for subscription plan enforcement.
             </li>
             <li>
-              <strong>App Functionality:</strong> To provide the core features
-              of our template builder application
-            </li>
-            <li>
-              <strong>Support:</strong> To provide customer support and
-              troubleshoot issues
-            </li>
-            <li>
-              <strong>Improvements:</strong> To improve our application and
-              develop new features
+              <strong>User Preferences:</strong> We store app settings and
+              configuration preferences.
             </li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">4. Data Storage and Security</Heading>
+          <Heading as="h2">3. Data Storage and Security</Heading>
 
-          <Heading as="h3">4.1 Storage Location</Heading>
-          <p>
-            All data is stored securely within monday.com's infrastructure using
-            their secure storage APIs. We do not maintain any external databases
-            or servers.
-          </p>
-
-          <Heading as="h3">4.2 Data Encryption</Heading>
+          <Heading as="h3">3.1 Storage Infrastructure</Heading>
           <ul>
             <li>
-              All data is encrypted at rest using monday.com's encryption
-              standards
+              <strong>monday.com Secure Storage:</strong> All data is stored
+              exclusively within monday.com's secure storage infrastructure
+              using their storage APIs.
             </li>
-            <li>All communications are encrypted using TLS 1.2 or higher</li>
-            <li>User access tokens are encrypted and stored securely</li>
+            <li>
+              <strong>No External Databases:</strong> We do not maintain any
+              external databases, servers, or third-party storage systems.
+            </li>
           </ul>
 
-          <Heading as="h3">4.3 App Permissions</Heading>
-          <p>
-            Our application requests the following permissions from monday.com,
-            and here's why each permission is necessary:
-          </p>
-
-          <Heading as="h4">
-            4.3.1 me:read - Read User Profile Information
-          </Heading>
-          <p>
-            <strong>Why we need this permission:</strong>
-          </p>
+          <Heading as="h3">3.2 Data Encryption and Security</Heading>
           <ul>
             <li>
-              To identify the current user creating and managing templates
+              <strong>Encryption at Rest:</strong> All data is encrypted using
+              monday.com's encryption standards.
             </li>
             <li>
-              To implement template permission controls (who can view/edit
-              templates)
+              <strong>Transport Security:</strong> All communications use TLS
+              1.2 or higher encryption.
             </li>
-            <li>To track usage data for subscription management</li>
-            <li>To provide personalized support and troubleshooting</li>
+            <li>
+              <strong>Access Control:</strong> Data access is restricted to
+              authorized board members only.
+            </li>
+            <li>
+              <strong>Input Validation:</strong> All user-supplied data is
+              validated and sanitized before processing.
+            </li>
           </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">4. App Permissions and Data Access</Heading>
+
+          <Heading as="h3">4.1 me:read Permission</Heading>
           <p>
-            <strong>What data we access:</strong>
+            <strong>Purpose:</strong> Read user profile information
+          </p>
+          <p>
+            <strong>Data Accessed:</strong>
           </p>
           <ul>
             <li>User ID, name, and email address</li>
-            <li>Account information for subscription management</li>
+            <li>
+              Used for template permission controls and user identification
+            </li>
+            <li>Required for collaborative template features</li>
           </ul>
 
-          <Heading as="h4">4.3.2 boards:read - Read Board Data</Heading>
+          <Heading as="h3">4.2 boards:read Permission</Heading>
           <p>
-            <strong>Why we need this permission:</strong>
+            <strong>Purpose:</strong> Read board data and structure
+          </p>
+          <p>
+            <strong>Data Accessed:</strong>
           </p>
           <ul>
-            <li>To read board structure and column configurations</li>
-            <li>To understand the data types and formats in your boards</li>
-            <li>To display existing subitems and their properties</li>
-            <li>To map template columns to actual board columns</li>
-            <li>
-              To validate that templates are compatible with your board
-              structure
-            </li>
-          </ul>
-          <p>
-            <strong>What data we access:</strong>
-          </p>
-          <ul>
-            <li>Board structure and column definitions</li>
-            <li>Existing subitem data (names, column values)</li>
-            <li>Board metadata and settings</li>
+            <li>Board column configurations and types</li>
+            <li>Existing subitem names and column values</li>
+            <li>Board structure and metadata</li>
+            <li>Used for template compatibility checking and data display</li>
           </ul>
 
-          <Heading as="h4">4.3.3 boards:write - Modify Board Data</Heading>
+          <Heading as="h3">4.3 boards:write Permission</Heading>
           <p>
-            <strong>Why we need this permission:</strong>
+            <strong>Purpose:</strong> Create and modify subitems
+          </p>
+          <p>
+            <strong>Data Accessed/Modified:</strong>
           </p>
           <ul>
-            <li>To create new subitems from your saved templates</li>
-            <li>To apply template data to your boards</li>
-            <li>To update existing subitems when templates are modified</li>
-            <li>
-              To create the actual subitems with the configured column values
-            </li>
+            <li>Creates new subitems from templates</li>
+            <li>Updates subitem column values</li>
+            <li>Only modifies data within authorized boards</li>
           </ul>
-          <p>
-            <strong>What data we modify:</strong>
-          </p>
-          <ul>
-            <li>Creates new subitems with template data</li>
-            <li>
-              Updates column values on existing subitems (when applying
-              templates)
-            </li>
-          </ul>
+        </section>
 
-          <Heading as="h4">4.3.4 Permission Usage</Heading>
+        <section>
+          <Heading as="h2">5. How We Use Your Information</Heading>
           <ul>
-            <li>We only access the specific boards you authorize</li>
             <li>
-              We only read and write data that is necessary for template
+              <strong>Template Management:</strong> Create, save, edit, and
+              apply subitem templates
+            </li>
+            <li>
+              <strong>Permission Control:</strong> Manage who can view and edit
+              specific templates
+            </li>
+            <li>
+              <strong>Usage Tracking:</strong> Monitor template applications for
+              subscription plan limits
+            </li>
+            <li>
+              <strong>Column Mapping:</strong> Automatically map template
+              columns to board columns
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">6. Third-Party Services and Dependencies</Heading>
+          <p>Our application uses the following services and libraries:</p>
+
+          <Heading as="h3">6.1 monday.com Services</Heading>
+          <ul>
+            <li>
+              <strong>monday.com GraphQL API:</strong> For all data operations
+            </li>
+            <li>
+              <strong>monday.com SDK:</strong> For platform integration
+            </li>
+            <li>
+              <strong>monday.com Seamless API:</strong> For enhanced API
               functionality
             </li>
             <li>
-              We do not access any data outside of the boards you explicitly
-              grant permission to
-            </li>
-            <li>
-              All data access is logged and monitored for security purposes
+              <strong>monday.com Storage:</strong> For secure data persistence
             </li>
           </ul>
 
-          <Heading as="h3">4.4 Security Measures</Heading>
+          <Heading as="h3">6.2 UI and Development Libraries</Heading>
           <ul>
             <li>
-              We implement proper authentication and authorization for all
-              requests
+              <strong>Vibe UI Components (@vibe/core):</strong> User interface
+              components (no data collection)
             </li>
-            <li>All user-supplied data is validated and sanitized</li>
             <li>
-              We follow monday.com's security best practices and requirements
+              <strong>React Libraries:</strong> Application framework and UI
+              components (no data collection)
+            </li>
+            <li>
+              <strong>Date/Number Formatting Libraries:</strong> Local data
+              formatting only (no data transmission)
             </li>
           </ul>
-        </section>
 
-        <section>
-          <Heading as="h2">5. Data Sharing and Third-Party Services</Heading>
-
-          <Heading as="h3">5.1 Third-Party Services</Heading>
-          <p>Our application uses the following third-party services:</p>
+          <Heading as="h3">6.3 Development Infrastructure</Heading>
           <ul>
             <li>
-              <strong>monday.com APIs:</strong> For accessing and modifying
-              board data, user information, and secure storage
+              <strong>Vite:</strong> Build tool (development only)
             </li>
             <li>
-              <strong>Vibe UI Components:</strong> For user interface components
-              (no data collection)
+              <strong>monday.com Apps Tunnel:</strong> Development tunneling
+              (.apps-tunnel.monday.app)
             </li>
-            <li>
-              <strong>React and related libraries:</strong> For application
-              functionality (no data collection)
-            </li>
-          </ul>
-
-          <Heading as="h3">5.2 Data Sharing</Heading>
-          <p>
-            We do not sell, trade, or otherwise transfer your personal
-            information to third parties except:
-          </p>
-          <ul>
-            <li>As required by law or to comply with legal process</li>
-            <li>To protect our rights and safety</li>
-            <li>With your explicit consent</li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">6. Your Rights and Choices</Heading>
+          <Heading as="h2">7. Data Logging and Retention</Heading>
 
-          <Heading as="h3">6.1 Access and Control</Heading>
-          <p>You have the right to:</p>
-          <ul>
-            <li>Access the personal information we hold about you</li>
-            <li>Request correction of inaccurate information</li>
-            <li>
-              Request deletion of your data (subject to monday.com's data
-              retention policies)
-            </li>
-          </ul>
-
-          <Heading as="h3">6.2 Data Retention</Heading>
+          <Heading as="h3">7.1 Data Retention</Heading>
           <ul>
             <li>
-              Template data is retained as long as you maintain an active
-              monday.com account
+              <strong>Template Data:</strong> We keep your information for as
+              long as necessary to fulfill the purposes outlined in this privacy
+              notice unless otherwise required by law. We will only keep your
+              personal information for as long as it is necessary for the
+              purposes set out in this privacy notice, unless a longer retention
+              period is required or permitted by law (such as tax, accounting,
+              or other legal requirements).
             </li>
-            <li>Usage data is retained for subscription management purposes</li>
             <li>
-              When you deauthorize or uninstall our app, we will delete all
-              associated data within 10 days
+              <strong>Usage Data:</strong> Monthly usage data retained for
+              subscription management
             </li>
           </ul>
         </section>
 
         <section>
-          <Heading as="h2">7. Cookies and Tracking</Heading>
+          <Heading as="h2">8. Data Sharing and Disclosure</Heading>
+          <ul>
+            <li>
+              <strong>No Third-Party Sharing:</strong> We do not sell, trade, or
+              share your data with third parties
+            </li>
+            <li>
+              <strong>Legal Compliance:</strong> Data may be disclosed if
+              required by law or legal process
+            </li>
+            <li>
+              <strong>monday.com Platform:</strong> Data remains within
+              monday.com's ecosystem
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">9. Your Rights and Data Control</Heading>
+
+          <Heading as="h3">9.1 Access and Control</Heading>
+          <ul>
+            <li>
+              <strong>Template Management:</strong> Full control over your saved
+              templates
+            </li>
+            <li>
+              <strong>Permission Settings:</strong> Control who can access your
+              templates
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">10. Cookies and Tracking</Heading>
+
+          <Heading as="h3">10.1 Essential Cookies Only</Heading>
           <p>
-            Our application does not use cookies for tracking purposes. Any
-            cookies used are strictly for application functionality and are
-            handled securely.
+            Our website uses only essential cookies required for basic
+            functionality:
+          </p>
+          <ul>
+            <li>
+              <strong>Session Cookies:</strong> Temporary cookies for website
+              operation and navigation
+            </li>
+            <li>
+              <strong>Preference Cookies:</strong> Store user interface settings
+              and preferences
+            </li>
+            <li>
+              <strong>Functional Cookies:</strong> Enable core website features
+              and functionality
+            </li>
+            <li>
+              <strong>No Tracking or Analytics:</strong> We do not use cookies
+              for tracking, analytics, or advertising purposes
+            </li>
+          </ul>
+
+          <Heading as="h3">10.2 No Third-Party Cookies</Heading>
+          <ul>
+            <li>
+              <strong>First-Party Only:</strong> All cookies are set directly by
+              our website domain
+            </li>
+            <li>
+              <strong>No External Services:</strong> We do not use Google
+              Analytics, advertising networks, or other third-party tracking
+              services
+            </li>
+            <li>
+              <strong>No Cross-Site Tracking:</strong> No tracking across other
+              websites or platforms
+            </li>
+            <li>
+              <strong>No Social Media Tracking:</strong> No social media pixels
+              or tracking codes
+            </li>
+          </ul>
+
+          <Heading as="h3">10.3 Cookie Management</Heading>
+          <ul>
+            <li>
+              <strong>Essential Cookies:</strong> Cannot be disabled as they are
+              required for website operation
+            </li>
+            <li>
+              <strong>No Consent Required:</strong> Essential cookies do not
+              require consent under UK GDPR
+            </li>
+            <li>
+              <strong>Browser Control:</strong> Users can clear cookies through
+              their browser settings
+            </li>
+          </ul>
+
+          <Heading as="h3">10.4 App vs Website Cookies</Heading>
+          <ul>
+            <li>
+              <strong>Separate Systems:</strong> Our monday.com app and website
+              use different systems. There are no cookies used in our app.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <Heading as="h2">11. Children's Privacy</Heading>
+          <p>
+            Our application is designed for business use and is not intended for
+            children under 13. We do not knowingly collect information from
+            children.
           </p>
         </section>
 
         <section>
-          <Heading as="h2">8. Children's Privacy</Heading>
+          <Heading as="h2">12. International Data Transfers</Heading>
           <p>
-            Our application is not intended for use by children under the age of
-            13. We do not knowingly collect personal information from children
-            under 13.
+            Data processing occurs within monday.com's global infrastructure
+            with appropriate safeguards for international transfers as governed
+            by monday.com's privacy policies.
           </p>
         </section>
 
         <section>
-          <Heading as="h2">9. International Data Transfers</Heading>
+          <Heading as="h2">13. Changes to This Privacy Policy</Heading>
           <p>
-            Your data is processed and stored within monday.com's
-            infrastructure, which may involve international data transfers. We
-            ensure appropriate safeguards are in place for such transfers.
+            We will notify users of material changes by updating the "Last
+            Updated" date and posting notifications within the app where
+            appropriate.
           </p>
         </section>
 
         <section>
-          <Heading as="h2">10. Changes to This Privacy Policy</Heading>
-          <p>
-            We may update this Privacy Policy from time to time. We will notify
-            you of any material changes by posting the new Privacy Policy on
-            this page and updating the "Last Updated" date.
-          </p>
-        </section>
-
-        <section>
-          <Heading as="h2">11. Contact Information</Heading>
-          <p>
-            If you have any questions about this Privacy Policy or our data
-            practices, please contact us at:
-          </p>
+          <Heading as="h2">14. Contact Information</Heading>
+          <p>For privacy-related questions or concerns:</p>
           <ul>
             <li>
               <strong>Email:</strong>{' '}
@@ -322,12 +400,15 @@ export default function Privacy(): React.ReactNode {
         </section>
 
         <section>
-          <Heading as="h2">12. Compliance</Heading>
-          <p>This Privacy Policy is designed to comply with:</p>
+          <Heading as="h2">15. Compliance and Certifications</Heading>
+          <p>This privacy policy complies with:</p>
           <ul>
-            <li>monday.com's marketplace privacy and security requirements</li>
-            <li>Applicable data protection laws and regulations</li>
-            <li>Best practices for data privacy and security</li>
+            <li>monday.com marketplace privacy and security requirements</li>
+            <li>UK General Data Protection Regulation (UK GDPR)</li>
+            <li>Data Protection Act 2018</li>
+            <li>Privacy and Electronic Communications Regulations (PECR)</li>
+            <li>Consumer Rights Act 2015</li>
+            <li>Industry security best practices</li>
           </ul>
         </section>
       </main>
