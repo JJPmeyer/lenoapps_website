@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'lenoapps', // Usually your GitHub org/user name.
-  projectName: 'leno-apps-website', // Usually your repo name.
+  organizationName: 'JJPmeyer', // Usually your GitHub org/user name.
+  projectName: 'lenoapps_website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
