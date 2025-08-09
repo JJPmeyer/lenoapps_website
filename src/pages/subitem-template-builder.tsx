@@ -140,7 +140,7 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
           <div className="container">
             <Heading as="h2">Try Subitem Template Builder for Free!</Heading>
             <p>
-              Enjoy a free plan with 3 template applications per month and
+              Enjoy a free plan where you can apply 3 templates per month and
               discover how our app can transform your workflow.
             </p>
             <div className={styles.ctaButtons}>

@@ -14,6 +14,7 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 - ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
 - ✅ Unlimited users
+- ✅ Template permission controls
 - ✅ Smart column mapping for mismatches
 - ✅ Apply up to 3 subitem templates per month
 
@@ -27,12 +28,13 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 - ✅ Save unlimited subitem templates with text, numbers, dates, dropdowns, people, connected boards, status, and timeline columns
 - ✅ Unlimited users
+- ✅ Template permission controls
 - ✅ Smart column mapping for mismatches
 - ✅ Apply up to 30 subitem templates per month
 
 ## Growth Plan
 
-**$20/month**
+**$20/month or $17/month billed yearly**
 
 **Ideal for growing teams with advanced needs**
 
@@ -46,7 +48,7 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 ## Scale Plan
 
-**$40/month**
+**$40/month or $34/month billed yearly**
 
 **Unlimited power with no restrictions**
 
@@ -60,15 +62,15 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 
 ## Plan Comparison
 
-| Feature                      | Free      | Starter   | Growth    | Scale     |
-| ---------------------------- | --------- | --------- | --------- | --------- |
-| Price                        | Free      | $5/month  | $20/month | $40/month |
-| Apply Templates              | 3/month   | 30/month  | 70/month  | Unlimited |
-| Template Creation            | Unlimited | Unlimited | Unlimited | Unlimited |
-| Unlimited Users              | ✅        | ✅        | ✅        | ✅        |
-| Smart Column Mapping         | ✅        | ✅        | ✅        | ✅        |
-| Template Permission Controls | ❌        | ❌        | ✅        | ✅        |
-| All Column Types Support     | ✅        | ✅        | ✅        | ✅        |
+| Feature                      | Free      | Starter   | Growth                 | Scale                  |
+| ---------------------------- | --------- | --------- | ---------------------- | ---------------------- |
+| Price                        | Free      | $5/month  | $20/month ($17 yearly) | $40/month ($34 yearly) |
+| Apply Templates              | 3/month   | 30/month  | 70/month               | Unlimited              |
+| Template Creation            | Unlimited | Unlimited | Unlimited              | Unlimited              |
+| Unlimited Users              | ✅        | ✅        | ✅                     | ✅                     |
+| Smart Column Mapping         | ✅        | ✅        | ✅                     | ✅                     |
+| Template Permission Controls | ✅        | ✅        | ✅                     | ✅                     |
+| All Column Types Support     | ✅        | ✅        | ✅                     | ✅                     |
 
 ## FAQ
 
