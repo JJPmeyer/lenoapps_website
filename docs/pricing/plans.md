@@ -16,7 +16,7 @@ Subitem Template Builder offers flexible pricing plans to meet the needs of indi
 - ✅ Unlimited users
 - ✅ Template permission controls
 - ✅ Smart column mapping for mismatches
-- ✅ Apply up to 3 subitem templates per month
+- ✅ Apply up to 5 subitem templates per month
 
 ## Starter Plan
 
