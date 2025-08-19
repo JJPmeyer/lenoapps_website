@@ -99,7 +99,7 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
                 number={3}
                 title="Click apply"
                 description="Watch as new subitems are created."
-                image="/img/Step4_SubitemBuilder.png"
+                image="/img/Step3_SubitemBuilder.png"
               />
             </div>
           </div>
