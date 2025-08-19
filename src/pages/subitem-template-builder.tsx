@@ -105,6 +105,27 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
           </div>
         </section>
 
+        {/* Feautures Section */}
+        <section className={styles.stepsSection}>
+          <div className="container">
+            <Heading as="h2">Feautures</Heading>
+            <div className={styles.stepsGrid}>
+              <Step
+                number={1}
+                title="Edit Templates"
+                description="Quickly update your saved subitem templates as your processes evolve."
+                image="/img/Feature_EditTemplates.png"
+              />
+              <Step
+                number={2}
+                title="Setting Permissions"
+                description="Control who can create and apply templates with fine-grained permissions."
+                image="/img/Feature_SettingPermissions.png"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Benefits Section */}
         <section className={styles.benefitsSection}>
           <div className="container">
