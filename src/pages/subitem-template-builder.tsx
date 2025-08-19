@@ -86,25 +86,19 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
               <Step
                 number={1}
                 title="Create Subitems"
-                description="First, create the subitems on your board that you want to use as recurring templates. Once created, these subitems will appear in the app where you can save them as reusable templates for future use."
+                description="Create the subitems on your board that you want to use as recurring templates."
                 image="/img/Step1_SubitemBuilder.png"
               />
               <Step
                 number={2}
                 title="Configure Template Structure"
-                description="Configure your templates by selecting which subitems you want to save as reusable templates and customize their settings for use across your board."
+                description="Open the app and select a subitem from the dropdown to save it as a template."
                 image="/img/Step2_SubitemBuilder.png"
               />
               <Step
                 number={3}
-                title="Set Permissions & Share"
-                description="Edit the values of your template and set permissions to control who can view and edit the template on this board."
-                image="/img/Step3_SubitemBuilder.png"
-              />
-              <Step
-                number={4}
-                title="Apply Template Instantly"
-                description="Click to apply your template and watch as new subitems are created."
+                title="Click apply"
+                description="Watch as new subitems are created."
                 image="/img/Step4_SubitemBuilder.png"
               />
             </div>
