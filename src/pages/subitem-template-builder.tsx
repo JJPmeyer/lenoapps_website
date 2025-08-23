@@ -92,13 +92,13 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
               <Step
                 number={2}
                 title="Add Templates"
-                description="Open the app and select a subitem from the dropdown to save it as a template."
+                description="Open the app in the item view and select the subitems from the dropdown to save them as templates."
                 image="/img/Step2_SubitemBuilder.png"
               />
               <Step
                 number={3}
                 title="Click Apply"
-                description="Watch as new subitems are created."
+                description="Select the templates, click apply and watch as new subitems are created on your board."
                 image="/img/Step3_SubitemBuilder.png"
               />
             </div>
