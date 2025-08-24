@@ -6,6 +6,19 @@ sidebar_position: 1
 
 **Subitem Template Builder** empowers users to create, save, and apply predefined templates for subitems. Instead of manually creating the same subitem structure repeatedly, users can create a template once and apply it whenever needed, saving significant time on repetitive tasks.
 
+## Supported Column Types
+
+The app supports the following column types for creating templates:
+
+- Text
+- Numbers
+- Date
+- Dropdown
+- People
+- Connected board
+- Status
+- Timeline
+
 ## See it in action
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>

@@ -35,15 +35,17 @@ function Step({
   title,
   description,
   image,
+  icon,
 }: {
-  number: number
+  number?: number
   title: string
   description: string
   image: string
+  icon?: React.ReactNode
 }) {
   return (
     <div className={styles.step}>
-      <div className={styles.stepNumber}>{number}</div>
+      <div className={styles.stepNumber}>{icon || number}</div>
       <div className={styles.stepContent}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
@@ -105,22 +107,25 @@ export default function SubitemTemplateBuilder(): React.ReactNode {
           </div>
         </section>
 
-        {/* Feautures Section */}
+        {/* Features Section */}
         <section className={styles.stepsSection}>
           <div className="container">
-            <Heading as="h2">Feautures</Heading>
+            <Heading as="h2">Features</Heading>
             <div className={styles.stepsGrid}>
               <Step
-                number={1}
                 title="Edit Templates"
                 description="Quickly update your saved subitem templates as your processes evolve."
                 image="/img/Feature_EditTemplates.png"
               />
               <Step
-                number={2}
                 title="Setting Permissions"
                 description="Control who can create and apply templates with fine-grained permissions."
                 image="/img/Feature_SettingPermissions.png"
+              />
+              <Step
+                title="Column Matching"
+                description="Intelligently map columns between your templates and target items."
+                image="/img/Feature_ColumnMatching.png"
               />
             </div>
           </div>
