@@ -23,12 +23,12 @@ The app supports the following column types for creating templates:
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <video
-    src="/videos/Demo_ApplyingTemplate_720.mov"
+    src="/videos/Demo_ApplyingTemplate_720.mp4"
     controls
     muted
     playsInline
     poster="/img/HomePageScreenshot_1.png"
     style={{maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)'}}
   />
-  <p style={{fontSize: '0.9rem', color: '#666'}}>If the video doesn't load, you can <a href="/videos/Demo_ApplyingTemplate_720.mov">download it here</a>.</p>
+  <p style={{fontSize: '0.9rem', color: '#666'}}>If the video doesn't load, you can <a href="/videos/Demo_ApplyingTemplate_720.mp4">download it here</a>.</p>
 </div>
