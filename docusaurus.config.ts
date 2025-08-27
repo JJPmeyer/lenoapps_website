@@ -53,6 +53,13 @@ const config: Config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: 'https://heyo.so/api/script?projectId=68af4442e58730060e43e6e9',
+      async: true,
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/leno-apps-social-card.jpg',
