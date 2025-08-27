@@ -53,13 +53,7 @@ const config: Config = {
     ],
   ],
 
-  scripts: [
-    {
-      src: 'https://heyo.so/embed/script',
-      defer: true,
-      async: true,
-    },
-  ],
+
 
   themeConfig: {
     // Replace with your project's social card
