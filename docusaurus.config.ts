@@ -55,7 +55,8 @@ const config: Config = {
 
   scripts: [
     {
-      src: 'https://heyo.so/api/script?projectId=68af4442e58730060e43e6e9',
+      src: 'https://heyo.so/embed/script',
+      defer: true,
       async: true,
     },
   ],
