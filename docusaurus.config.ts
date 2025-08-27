@@ -55,9 +55,7 @@ const config: Config = {
 
   scripts: [
     {
-      src: 'https://heyo.so/embed/script',
-      defer: true,
-      async: true,
+      src: '/crisp-init.js',
     },
   ],
 
