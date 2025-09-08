@@ -40,6 +40,7 @@ Subitem Template Builder requires the following permissions to function properly
 
 ### Required Permissions
 
-- **Read boards**: To access your board subitems and column information
-- **Write boards**: To create new subitems from templates
-- **Read users**: To manage template permissions and sharing
+- **me:read:**: Lets the app know who you are so templates can be saved under your name and your default access can be set.
+- **boards: read:**: Allows the app to view your chosen boards (their groups, items, and columns) so you can browse and map data while building templates.
+- **boards: write:**: Allows the app to add subitems and create needed columns when you apply a template to a board you select.
+- **users: read:**: Lets the app look up coworkers’ names so you can assign people in templates and share with specific teammates.
