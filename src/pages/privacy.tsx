@@ -11,7 +11,7 @@ export default function Privacy(): React.ReactNode {
       <main className="container margin-vert--lg">
         <Heading as="h1">Privacy Policy - Subitem Template Builder</Heading>
         <p>
-          <strong>Last Updated:</strong> {new Date().toLocaleDateString()}
+          <strong>Last Updated:</strong> September 8, 2025
         </p>
 
         <section>
@@ -38,6 +38,12 @@ export default function Privacy(): React.ReactNode {
             <li>
               <strong>Account Information:</strong> We collect your monday.com
               account ID for subscription and usage tracking purposes.
+            </li>
+            <li>
+              <strong>Team Member Data:</strong> We access coworker names and
+              user IDs through the users:read permission to enable people
+              assignment in templates and facilitate template sharing with
+              specific teammates.
             </li>
           </ul>
 

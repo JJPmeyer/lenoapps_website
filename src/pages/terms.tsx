@@ -11,7 +11,7 @@ export default function Terms(): React.ReactNode {
       <main className="container margin-vert--lg">
         <Heading as="h1">Terms of Service - Subitem Template Builder</Heading>
         <p>
-          <strong>Last Updated:</strong> {new Date().toLocaleDateString()}
+          <strong>Last Updated:</strong> September 8, 2025
         </p>
 
         <section>
