@@ -12,12 +12,6 @@
         document.body.setAttribute('data-embed', 'true')
       }
 
-      // Add iframe-friendly meta tags
-      const meta = document.createElement('meta')
-      meta.httpEquiv = 'Content-Security-Policy'
-      meta.content = 'frame-ancestors *.monday.com monday.com;'
-      document.head.appendChild(meta)
-
       // Add robots meta to prevent indexing
       const robotsMeta = document.createElement('meta')
       robotsMeta.name = 'robots'
