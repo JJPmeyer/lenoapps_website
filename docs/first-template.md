@@ -14,7 +14,7 @@ Before creating a template, you need an item with subitems that represents the s
 
 ## Step 2: Access App in Item View
 
-1. Navigate to your item on the Monday board
+1. Navigate to your item on the monday board
 2. Open the item view for the item by clicking on the expanding arrows
 3. Select **"Subitem Template Builder"**
 
