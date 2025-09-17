@@ -7,6 +7,14 @@
   if (isEmbed) {
     // Function to set up embed mode
     function setupEmbedMode() {
+      // Force light theme in embed view (without touching localStorage)
+      try {
+        document.documentElement.setAttribute('data-theme', 'light')
+        document.documentElement.setAttribute('data-theme-choice', 'light')
+      } catch (e) {
+        // ignore
+      }
+
       // Add data attribute to body for CSS targeting
       if (document.body) {
         document.body.setAttribute('data-embed', 'true')
