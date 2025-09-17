@@ -1,0 +1,11 @@
+# Headers for iframe embedding
+/embed-docs.html
+  X-Frame-Options: ALLOW-FROM https://monday.com
+  Content-Security-Policy: frame-ancestors 'self' https://*.monday.com https://monday.com
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# General security headers for all files
+/*
+  X-XSS-Protection: 1; mode=block
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
