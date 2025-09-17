@@ -61,3 +61,8 @@ body[data-embed='true'] .navbar,
 body[data-embed='true'] .footer {
   display: none !important;
 }
+
+/* Hide breadcrumbs only in embed view */
+body[data-embed='true'] .theme-doc-breadcrumbs {
+  display: none !important;
+}

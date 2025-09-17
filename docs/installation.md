@@ -40,15 +40,21 @@ Subitem Template Builder requires the following permissions to function properly
 
 ### Required Permissions
 
-- **Read all of your boards data (boards:read):**
-  Purpose: Access board structure and existing subitems
-  Usage: Read board columns and existing subitem data to create templates from existing subitems and validate template compatibility with board structure.
-- **Modify any of your boards' data (boards:write):**
-  Purpose: Create subitems from templates
-  Usage: Create new subitems with template data and add missing columns when needed during template application.
-- **Read your profile information (me:read):**
-  Purpose: Identify template creators
-  Usage: Track who created each template to enable permission controls and template ownership features.
-- **Read the profile information of the users in your account (users:read):**
-  Purpose: Enable template sharing
-  Usage: Access team member information to allow sharing templates with specific people and display user names in permission settings.
+- **Read all of your boards data:**
+
+  - Purpose: Access board structure and existing subitems
+  - Usage: Read board columns and existing subitem data to create templates from existing subitems and validate template compatibility with board structure.
+
+- **Modify any of your boards' data:**
+
+  - Purpose: Create subitems from templates
+  - Usage: Create new subitems with template data and add missing columns when needed during template application.
+
+- **Read your profile information:**
+
+  - Purpose: Identify template creators
+  - Usage: Track who created each template to enable permission controls and template ownership features.
+
+- **Read the profile information of the users in your account:**
+  - Purpose: Enable template sharing
+  - Usage: Access team member information to allow sharing templates with specific people and display user names in permission settings.
