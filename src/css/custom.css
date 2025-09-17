@@ -55,3 +55,9 @@
   margin-left: auto !important;
   padding-left: 200px !important;
 }
+
+/* Iframe embedding styles - ONLY hide header and footer when ?embed=true is present */
+body[data-embed='true'] .navbar,
+body[data-embed='true'] .footer {
+  display: none !important;
+}

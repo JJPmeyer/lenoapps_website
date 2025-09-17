@@ -120,52 +120,6 @@ export default function Privacy(): React.ReactNode {
         </section>
 
         <section>
-          <Heading as="h2">4. App Permissions and Data Access</Heading>
-
-          <Heading as="h3">4.1 me:read Permission</Heading>
-          <p>
-            <strong>Purpose:</strong> Read user profile information
-          </p>
-          <p>
-            <strong>Data Accessed:</strong>
-          </p>
-          <ul>
-            <li>User ID, name, and email address</li>
-            <li>
-              Used for template permission controls and user identification
-            </li>
-            <li>Required for collaborative template features</li>
-          </ul>
-
-          <Heading as="h3">4.2 boards:read Permission</Heading>
-          <p>
-            <strong>Purpose:</strong> Read board data and structure
-          </p>
-          <p>
-            <strong>Data Accessed:</strong>
-          </p>
-          <ul>
-            <li>Board column configurations and types</li>
-            <li>Existing subitem names and column values</li>
-            <li>Board structure and metadata</li>
-            <li>Used for template compatibility checking and data display</li>
-          </ul>
-
-          <Heading as="h3">4.3 boards:write Permission</Heading>
-          <p>
-            <strong>Purpose:</strong> Create and modify subitems
-          </p>
-          <p>
-            <strong>Data Accessed/Modified:</strong>
-          </p>
-          <ul>
-            <li>Creates new subitems from templates</li>
-            <li>Updates subitem column values</li>
-            <li>Only modifies data within authorized boards</li>
-          </ul>
-        </section>
-
-        <section>
           <Heading as="h2">5. How We Use Your Information</Heading>
           <ul>
             <li>

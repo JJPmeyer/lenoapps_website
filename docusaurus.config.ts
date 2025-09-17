@@ -57,6 +57,9 @@ const config: Config = {
     {
       src: '/crisp-init.js',
     },
+    {
+      src: '/embed-detector.js',
+    },
   ],
 
   themeConfig: {
