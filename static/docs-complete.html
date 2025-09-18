@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subitem Template Builder - Complete Documentation</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          sans-serif;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #1c1e21;
+        background: #ffffff;
+      }
+
+      h1 {
+        color: #2e8555;
+        border-bottom: 3px solid #2e8555;
+        padding-bottom: 15px;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      h2 {
+        color: #2e8555;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #e1e8ed;
+      }
+
+      h3 {
+        color: #2e8555;
+        margin-top: 2rem;
+      }
+
+      .video-container {
+        text-align: center;
+        margin: 2rem 0 3rem 0;
+        padding: 2rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+      }
+
+      video {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .video-note {
+        font-size: 0.9rem;
+        color: #666;
+        margin-top: 1rem;
+      }
+
+      .toc {
+        background: #f8f9fa;
+        border: 1px solid #e1e8ed;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      .toc h3 {
+        margin-top: 0;
+        color: #2e8555;
+        border-bottom: 1px solid #e1e8ed;
+        padding-bottom: 0.5rem;
+      }
+
+      .toc ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .toc li {
+        margin: 0.5rem 0;
+      }
+
+      .toc a {
+        color: #2e8555;
+        text-decoration: none;
+        padding: 0.25rem 0;
+        display: block;
+      }
+
+      .toc a:hover {
+        text-decoration: underline;
+        background: rgba(46, 133, 85, 0.1);
+        padding-left: 0.5rem;
+        border-radius: 4px;
+      }
+
+      ul,
+      ol {
+        padding-left: 1.5rem;
+      }
+
+      li {
+        margin: 0.5rem 0;
+      }
+
+      strong {
+        color: #2e8555;
+      }
+
+      a {
+        color: #2e8555;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .install-button {
+        display: inline-block;
+        margin: 1rem 0;
+      }
+
+      .install-button img {
+        height: 32px;
+        border-radius: 4px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+        font-size: 0.9rem;
+      }
+
+      th,
+      td {
+        border: 1px solid #e1e8ed;
+        padding: 0.75rem;
+        text-align: left;
+      }
+
+      th {
+        background: #f8f9fa;
+        font-weight: 600;
+        color: #2e8555;
+      }
+
+      .price {
+        font-weight: bold;
+        color: #2e8555;
+      }
+
+      .checkmark {
+        color: #28a745;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Subitem Template Builder Documentation</h1>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h3>See it in action</h3>
+      <video
+        controls
+        muted
+        playsinline
+        preload="metadata"
+        width="100%"
+        style="max-width: 800px; background: #000"
+      >
+        <source src="/videos/Demo_ApplyingTemplate_720.mp4" type="video/mp4" />
+        <p>
+          Your browser does not support the video tag.
+          <a href="/videos/Demo_ApplyingTemplate_720.mp4"
+            >Download the video instead</a
+          >.
+        </p>
+      </video>
+      <p class="video-note">
+        If the video doesn't load, you can
+        <a href="/videos/Demo_ApplyingTemplate_720.mp4">download it here</a>.
+      </p>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#installation">Installation Guide</a></li>
+        <li><a href="#first-template">Creating Your First Template</a></li>
+        <li><a href="#editing-templates">Editing Templates</a></li>
+        <li><a href="#pricing">Pricing Plans</a></li>
+        <li><a href="#contact">Contact & Support</a></li>
+      </ul>
+    </div>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+      <h2>Introduction</h2>
+
+      <p>
+        <strong>Subitem Template Builder</strong> empowers users to create,
+        save, and apply predefined templates for subitems. Instead of manually
+        creating the same subitem structure repeatedly, users can create a
+        template once and apply it whenever needed, saving significant time on
+        repetitive tasks.
+      </p>
+
+      <h3>Supported Column Types</h3>
+
+      <p>The app supports the following column types for creating templates:</p>
+
+      <ul>
+        <li>Text</li>
+        <li>Numbers</li>
+        <li>Date</li>
+        <li>Dropdown</li>
+        <li>People</li>
+        <li>Connected board</li>
+        <li>Status</li>
+        <li>Timeline</li>
+      </ul>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="installation">
+      <h2>Installation Guide</h2>
+
+      <p>
+        Installing Subitem Template Builder is quick and easy. Choose your
+        preferred installation method below.
+      </p>
+
+      <h3>Quick Install</h3>
+
+      <p>
+        Click the button below to install Subitem Template Builder directly:
+      </p>
+
+      <a
+        href="https://auth.monday.com/oauth2/authorize?client_id=34854162b78c25e82b95f9366d0d66cd&response_type=install"
+        class="install-button"
+      >
+        <img
+          alt="Add to monday.com"
+          src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/Tal/4b5d9548-0598-436e-a5b6-9bc5f29ee1d9_Group12441.png"
+        />
+      </a>
+
+      <h3>Manual Installation via Marketplace</h3>
+
+      <p>
+        If you prefer to install through the monday.com Apps Marketplace, follow
+        these steps:
+      </p>
+
+      <h4>Step 1: Navigate to the monday.com Apps Marketplace</h4>
+      <ul>
+        <li>Log in to your monday.com account.</li>
+        <li>
+          Click on the Apps Marketplace icon located in the top-right corner.
+        </li>
+        <li>
+          Use the search bar within the marketplace to find Subitem Template
+          Builder.
+        </li>
+      </ul>
+
+      <h4>Step 2: Install Subitem Template Builder</h4>
+      <ul>
+        <li>
+          Locate Subitem Template Builder by Leno Apps in the search results.
+        </li>
+        <li>Click the Install App button.</li>
+        <li>
+          Follow the on-screen instructions to review and approve the required
+          permissions.
+        </li>
+      </ul>
+
+      <h3>Permissions Explained</h3>
+
+      <p>
+        Subitem Template Builder requires the following permissions to function
+        properly:
+      </p>
+
+      <h4>Required Permissions</h4>
+      <ul>
+        <li>
+          <strong>Read all of your boards data:</strong>
+          <ul>
+            <li>Purpose: Access board structure and existing subitems</li>
+            <li>
+              Usage: Read board columns and existing subitem data to create
+              templates from existing subitems and validate template
+              compatibility with board structure.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Modify any of your boards' data:</strong>
+          <ul>
+            <li>Purpose: Create subitems from templates</li>
+            <li>
+              Usage: Create new subitems with template data and add missing
+              columns when needed during template application.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Read your profile information:</strong>
+          <ul>
+            <li>Purpose: Identify template creators</li>
+            <li>
+              Usage: Track who created each template to enable permission
+              controls and template ownership features.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong
+            >Read the profile information of the users in your account:</strong
+          >
+          <ul>
+            <li>Purpose: Enable template sharing</li>
+            <li>
+              Usage: Access team member information to allow sharing templates
+              with specific people and display user names in permission
+              settings.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- First Template Section -->
+    <section id="first-template">
+      <h2>Creating and Applying Your First Template</h2>
+
+      <h3>Prerequisites</h3>
+      <ul>
+        <li>
+          At least one item with existing subitems to use as a template source
+        </li>
+      </ul>
+
+      <h3>Step 1: Prepare Your Source Subitems</h3>
+      <p>
+        Before creating a template, you need an item with subitems that
+        represents the structure you want to replicate.
+      </p>
+
+      <h3>Step 2: Access App in Item View</h3>
+      <ol>
+        <li>Navigate to your item on the monday board</li>
+        <li>
+          Open the item view for the item by clicking on the expanding arrows
+        </li>
+        <li>Select <strong>"Subitem Template Builder"</strong></li>
+      </ol>
+
+      <h3>Step 3: Create New Template</h3>
+      <ol>
+        <li>
+          In the Subitem Template Builder interface. If you not have any saved
+          templates, click on the dropdown and select from the subitems
+          available. If you have saved templates, click on the + icon and select
+          the subitems to save as templates.
+        </li>
+        <li><strong>Congrats</strong> you have created your first template.</li>
+      </ol>
+
+      <h3>Step 4: Apply Your Template</h3>
+      <ol>
+        <li>
+          On the templates list, tick all the boxes of the subitem templates you
+          want to apply to the item.
+        </li>
+        <li>Click <strong>"Apply to board"</strong></li>
+        <li>Watch as the subitems get created for your item</li>
+      </ol>
+
+      <p>You've now successfully created and applied your first template!</p>
+    </section>
+
+    <!-- Editing Templates Section -->
+    <section id="editing-templates">
+      <h2>Editing Templates</h2>
+
+      <p>
+        This guide will walk you through editing existing templates with Subitem
+        Template Builder. Learn how to modify template content, update
+        permissions, and manage your templates effectively.
+      </p>
+
+      <h3>Prerequisites</h3>
+      <ul>
+        <li>
+          At least one existing template created with Subitem Template Builder
+        </li>
+      </ul>
+
+      <h3>Step 1: Opening the Template Editor</h3>
+      <ol>
+        <li>Open the Subitem Template Builder app</li>
+        <li>
+          On the list of templates, click on the pencil icon for the template
+          you want to edit
+        </li>
+        <li>The template editor will open in a full-screen modal</li>
+      </ol>
+
+      <h3>Step 2: Using the Template Editor</h3>
+      <ol>
+        <li>
+          <strong>Edit the template name</strong> by clicking on it at the top
+        </li>
+        <li>
+          <strong>Modify column values</strong> in the table by clicking on each
+          field:
+          <ul>
+            <li>Text fields: Type directly</li>
+            <li>Number fields: Enter numbers</li>
+            <li>Date fields: Use the date picker (times are in UTC)</li>
+            <li>Status fields: Select from options</li>
+            <li>
+              Dropdown fields: Choose from available options (Shows dropdown
+              options saved on the template)
+            </li>
+            <li>
+              People fields: Select from people who has access to the board
+            </li>
+            <li>
+              Connected boards: Link to items from other boards (Shows items
+              from the connected board that was saved on the template)
+            </li>
+            <li>Timeline fields: Click to set date ranges</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Save your changes</strong> by clicking "Save Template" at the
+          bottom
+        </li>
+      </ol>
+
+      <h3>Step 3: Setting Template Permissions</h3>
+      <ol>
+        <li>
+          <strong>Set who can see the template</strong>:
+          <ul>
+            <li>"Everyone" - All board users can see and use it</li>
+            <li>"Only me" - Only you can see and use it</li>
+            <li>"Specific people" - Select specific users to share with</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Set who can edit the template</strong> (if not "Only me"):
+          <ul>
+            <li>"Only me" - Only you can edit it</li>
+            <li>"Everyone" - All users with access can edit it</li>
+          </ul>
+        </li>
+        <li><strong>Save permissions</strong> by clicking "Save Template"</li>
+      </ol>
+
+      <p>
+        The system shows permission badges (🌐 Everyone, 🔒 Private, 🔗 Shared)
+        to help you understand current settings.
+      </p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <h2>Pricing Plans</h2>
+
+      <p>
+        Subitem Template Builder offers flexible pricing plans to meet the needs
+        of individuals, teams, and enterprises. Start with our free plan and
+        upgrade as your needs grow.
+      </p>
+
+      <h3>Free Plan</h3>
+      <p><strong>Perfect for getting started and trying out the app</strong></p>
+
+      <h4>What's Included</h4>
+      <ul>
+        <li>
+          <span class="checkmark">✅</span> Save unlimited subitem templates
+          with text, numbers, dates, dropdowns, people, connected boards,
+          status, and timeline columns
+        </li>
+        <li><span class="checkmark">✅</span> Unlimited users</li>
+        <li><span class="checkmark">✅</span> Template permission controls</li>
+        <li>
+          <span class="checkmark">✅</span> Smart column mapping for mismatches
+        </li>
+        <li>
+          <span class="checkmark">✅</span> Apply up to 5 subitem templates per
+          month
+        </li>
+      </ul>
+
+      <h3>Starter Plan</h3>
+      <p class="price">$5/month</p>
+      <p><strong>Perfect for small teams getting organized</strong></p>
+
+      <h4>What's Included</h4>
+      <ul>
+        <li>
+          <span class="checkmark">✅</span> Save unlimited subitem templates
+          with text, numbers, dates, dropdowns, people, connected boards,
+          status, and timeline columns
+        </li>
+        <li><span class="checkmark">✅</span> Unlimited users</li>
+        <li><span class="checkmark">✅</span> Template permission controls</li>
+        <li>
+          <span class="checkmark">✅</span> Smart column mapping for mismatches
+        </li>
+        <li>
+          <span class="checkmark">✅</span> Apply up to 40 subitem templates per
+          month
+        </li>
+      </ul>
+
+      <h3>Growth Plan</h3>
+      <p class="price">$20/month or $17/month billed yearly</p>
+      <p><strong>Ideal for growing teams with advanced needs</strong></p>
+
+      <h4>What's Included</h4>
+      <ul>
+        <li>
+          <span class="checkmark">✅</span> Save unlimited subitem templates
+          with text, numbers, dates, dropdowns, people, connected boards,
+          status, and timeline columns
+        </li>
+        <li><span class="checkmark">✅</span> Unlimited users</li>
+        <li><span class="checkmark">✅</span> Template permission controls</li>
+        <li>
+          <span class="checkmark">✅</span> Smart column mapping for mismatches
+        </li>
+        <li>
+          <span class="checkmark">✅</span> Apply up to 80 subitem templates per
+          month
+        </li>
+      </ul>
+
+      <h3>Scale Plan</h3>
+      <p class="price">$40/month or $34/month billed yearly</p>
+      <p><strong>Unlimited power with no restrictions</strong></p>
+
+      <h4>What's Included</h4>
+      <ul>
+        <li>
+          <span class="checkmark">✅</span> Save unlimited subitem templates
+          with text, numbers, dates, dropdowns, people, connected boards,
+          status, and timeline columns
+        </li>
+        <li><span class="checkmark">✅</span> Unlimited users</li>
+        <li><span class="checkmark">✅</span> Template permission controls</li>
+        <li>
+          <span class="checkmark">✅</span> Smart column mapping for mismatches
+        </li>
+        <li>
+          <span class="checkmark">✅</span> Apply unlimited subitem templates
+          per month
+        </li>
+      </ul>
+
+      <h3>Plan Comparison</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Free</th>
+            <th>Starter</th>
+            <th>Growth</th>
+            <th>Scale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Price</td>
+            <td>Free</td>
+            <td class="price">$5/month</td>
+            <td class="price">$20/month ($17 yearly)</td>
+            <td class="price">$40/month ($34 yearly)</td>
+          </tr>
+          <tr>
+            <td>Apply Templates</td>
+            <td>5/month</td>
+            <td>40/month</td>
+            <td>80/month</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Template Creation</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Unlimited Users</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+          </tr>
+          <tr>
+            <td>Smart Column Mapping</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+          </tr>
+          <tr>
+            <td>Template Permission Controls</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+          </tr>
+          <tr>
+            <td>All Column Types Support</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+            <td class="checkmark">✅</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>FAQ</h3>
+
+      <h4>What counts as a template usage?</h4>
+      <p>
+        Template usage is incremented each time you apply a template to create a
+        subitem.
+      </p>
+
+      <h4>What happens if I exceed my monthly limit?</h4>
+      <p>
+        You'll receive a notification when you're close to your limit. Once
+        exceeded, you'll need to upgrade to continue using the app.
+      </p>
+
+      <h4>Is there a free trial?</h4>
+      <p>
+        The Free plan serves as our free trial. You can use it indefinitely with
+        applying 3 templates per month limit.
+      </p>
+
+      <h4>Do you offer yearly pricing?</h4>
+      <p>
+        Yes! We offer yearly pricing with a 15% discount on Growth and Scale
+        plans.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact & Support</h2>
+
+      <p>Need help with Subitem Template Builder? We're here to help!</p>
+
+      <h3>Support Email</h3>
+      <p>
+        For technical support, feature requests, or general questions:<br />
+        <strong
+          ><a href="mailto:support@lenoapps.com"
+            >support@lenoapps.com</a
+          ></strong
+        >
+      </p>
+
+      <h3>Before Contacting Support</h3>
+      <p>To help us assist you faster, please include:</p>
+      <ul>
+        <li>A clear description of the issue</li>
+        <li>Steps to reproduce the problem</li>
+        <li>Screenshots if applicable</li>
+      </ul>
+    </section>
+  </body>
+</html>
