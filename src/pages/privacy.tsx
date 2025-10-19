@@ -11,7 +11,7 @@ export default function Privacy(): React.ReactNode {
       <main className="container margin-vert--lg">
         <Heading as="h1">Privacy Policy - Subitem Template Builder</Heading>
         <p>
-          <strong>Last Updated:</strong> September 8, 2025
+          <strong>Last Updated:</strong> October 19, 2025
         </p>
 
         <section>
@@ -207,6 +207,29 @@ export default function Privacy(): React.ReactNode {
             <li>
               <strong>Usage Data:</strong> Monthly usage data retained for
               subscription management
+            </li>
+          </ul>
+
+          <Heading as="h3">7.2 Account Data Deletion</Heading>
+          <ul>
+            <li>
+              <strong>Automatic Data Clearing:</strong> When you uninstall the
+              Subitem Template Builder app from your monday.com account, all
+              account data is automatically cleared from monday.com's storage
+              systems. This includes all templates, user preferences, and any
+              other information associated with your account.
+            </li>
+            <li>
+              <strong>Deletion Timeline:</strong> Please allow at least 5
+              minutes after uninstalling the app for all data to be completely
+              removed from monday.com storage systems. The deletion process is
+              automated and irreversible once completed.
+            </li>
+            <li>
+              <strong>No Data Recovery:</strong> Once your account data has been
+              deleted following app uninstallation, it cannot be recovered. If
+              you reinstall the app, you will need to recreate any templates or
+              preferences from scratch.
             </li>
           </ul>
         </section>
