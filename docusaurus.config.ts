@@ -83,10 +83,15 @@ const config: Config = {
           position: 'left',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'subitemTemplateBuilderSidebar',
+          to: '/data-bridge',
+          label: 'Data Bridge',
           position: 'left',
-          label: 'Documentation',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'docsSidebar',
+          position: 'left',
+          label: 'Docs',
         },
         {
           href: 'mailto:support@lenoapps.com',
@@ -105,14 +110,22 @@ const config: Config = {
               label: 'Subitem Template Builder',
               to: '/subitem-template-builder',
             },
+            {
+              label: 'Data Bridge',
+              to: '/data-bridge',
+            },
           ],
         },
         {
           title: 'Learn',
           items: [
             {
-              label: 'Documentation',
+              label: 'Subitem Docs',
               to: '/docs/intro',
+            },
+            {
+              label: 'Data Bridge Docs',
+              to: '/docs/data-bridge/intro',
             },
           ],
         },

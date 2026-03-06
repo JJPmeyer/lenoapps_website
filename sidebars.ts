@@ -13,22 +13,50 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  subitemTemplateBuilderSidebar: [
-    'intro',
+  docsSidebar: [
     {
       type: 'category',
-      label: 'Getting Started',
-      items: ['installation', 'first-template', 'editing-templates'],
+      label: 'Data Bridge',
+      items: [
+        'data-bridge/intro',
+        {
+          type: 'category',
+          label: 'Getting Started',
+          items: ['data-bridge/installation', 'data-bridge/template-manager'],
+        },
+        {
+          type: 'category',
+          label: 'Pricing',
+          items: ['data-bridge/pricing/plans'],
+        },
+        {
+          type: 'category',
+          label: 'Support',
+          items: ['data-bridge/support/contact'],
+        },
+      ],
     },
     {
       type: 'category',
-      label: 'Pricing',
-      items: ['pricing/plans'],
-    },
-    {
-      type: 'category',
-      label: 'Support',
-      items: ['support/contact'],
+      label: 'Subitem Template Builder',
+      items: [
+        'intro',
+        {
+          type: 'category',
+          label: 'Getting Started',
+          items: ['installation', 'first-template', 'editing-templates'],
+        },
+        {
+          type: 'category',
+          label: 'Pricing',
+          items: ['pricing/plans'],
+        },
+        {
+          type: 'category',
+          label: 'Support',
+          items: ['support/contact'],
+        },
+      ],
     },
   ],
 }

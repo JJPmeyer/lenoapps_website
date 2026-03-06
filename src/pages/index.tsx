@@ -28,26 +28,58 @@ function HomepageHeader() {
   )
 }
 
-function AppScreenshots() {
+type AppSection = {
+  title: string
+  description: string
+  link: string
+  imageSrc: string
+  imageAlt: string
+  imageClassName?: string
+}
+
+const appSections: AppSection[] = [
+  {
+    title: 'Data Bridge',
+    description:
+      'Data Bridge helps you move data into monday.com fast, cleanly, and reliably. Configure your flow once, map fields, and run repeatable data loads, including parent items and multi-level subitems. New sources are continuously added, and you can request any source your team needs.',
+    link: '/data-bridge',
+    imageSrc: '/img/HomePageScreenshot_DataBridge.png',
+    imageAlt: 'Data Bridge Interface',
+    imageClassName: styles.largeScreenshotImage,
+  },
+  {
+    title: 'Subitem Template Builder',
+    description:
+      'Subitem Template Builder is a monday.com app that allows users to create, save, and apply predefined templates for subitems. Instead of manually creating the same subitem structure repeatedly, users can create a template once and apply it whenever needed, saving significant time on repetitive tasks.',
+    link: '/subitem-template-builder',
+    imageSrc: '/img/HomePageScreenshot_1.png',
+    imageAlt: 'Subitem Template Builder Interface',
+  },
+]
+
+function AppScreenshots({
+  title,
+  description,
+  link,
+  imageSrc,
+  imageAlt,
+  imageClassName,
+}: AppSection) {
   return (
     <section className={styles.screenshotsSection}>
       <div className="container">
         <div className={styles.screenshotsContent}>
           <div className={styles.screenshotsText}>
             <Heading as="h2" className={styles.screenshotsTitle}>
-              Subitem Template Builder
+              {title}
             </Heading>
             <p className={styles.screenshotsSubtitle}>
-              Subitem Template Builder is a monday.com app that allows users to
-              create, save, and apply predefined templates for subitems. Instead
-              of manually creating the same subitem structure repeatedly, users
-              can create a template once and apply it whenever needed, saving
-              significant time on repetitive tasks.
+              {description}
             </p>
             <div className={styles.screenshotsButtons}>
               <Link
                 className="button button--primary button--lg"
-                to="/subitem-template-builder"
+                to={link}
               >
                 Learn more
               </Link>
@@ -56,9 +88,9 @@ function AppScreenshots() {
           <div className={styles.screenshotsImages}>
             <div className={styles.imageGrid}>
               <img
-                src="/img/HomePageScreenshot_1.png"
-                alt="Subitem Template Builder Interface"
-                className={styles.screenshotImage}
+                src={imageSrc}
+                alt={imageAlt}
+                className={clsx(styles.screenshotImage, imageClassName)}
               />
             </div>
           </div>
@@ -77,7 +109,9 @@ export default function Home(): React.ReactNode {
     >
       <HomepageHeader />
       <main>
-        <AppScreenshots />
+        {appSections.map((app) => (
+          <AppScreenshots key={app.title} {...app} />
+        ))}
       </main>
     </Layout>
   )
