@@ -295,24 +295,19 @@ export default function Privacy(): React.ReactNode {
             </li>
           </ul>
 
-          <Heading as="h3">10.2 No Third-Party Cookies</Heading>
+          <Heading as="h3">10.2 Third-Party Website Services</Heading>
           <ul>
             <li>
-              <strong>First-Party Only:</strong> All cookies are set directly by
-              our website domain
+              <strong>First-Party Core Site:</strong> Core site functionality is
+              served from our own domain
             </li>
             <li>
-              <strong>No External Services:</strong> We do not use Google
-              Analytics, advertising networks, or other third-party tracking
-              services
+              <strong>Support Chat:</strong> We use Crisp chat on the website
+              for support conversations
             </li>
             <li>
-              <strong>No Cross-Site Tracking:</strong> No tracking across other
-              websites or platforms
-            </li>
-            <li>
-              <strong>No Social Media Tracking:</strong> No social media pixels
-              or tracking codes
+              <strong>No Advertising Tracking:</strong> We do not run ad network
+              trackers or social media pixels
             </li>
           </ul>
 

@@ -133,12 +133,20 @@ const config: Config = {
           title: 'Legal',
           items: [
             {
-              label: 'Privacy Policy',
+              label: 'Subitem Privacy Policy',
               to: '/privacy',
             },
             {
-              label: 'Terms of Service',
+              label: 'Subitem Terms of Service',
               to: '/terms',
+            },
+            {
+              label: 'Data Bridge Privacy Policy',
+              to: '/data-bridge-privacy',
+            },
+            {
+              label: 'Data Bridge Terms of Service',
+              to: '/data-bridge-terms',
             },
           ],
         },
