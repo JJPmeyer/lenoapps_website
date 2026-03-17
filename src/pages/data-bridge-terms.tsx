@@ -115,11 +115,30 @@ export default function DataBridgeTerms(): React.ReactNode {
 
           <ul>
             <li>
-              Please see the pricing section of the app on the monday.com
-              marketplace for the latest pricing and plan details.
+              <strong>Free Plan:</strong> $0/month, up to 3 imports per month,
+              manual imports only, and no saved schedules.
             </li>
             <li>
-              Plan rules may include monthly import limits and schedule limits.
+              <strong>Starter Plan:</strong> $14/month or $11/month billed
+              yearly, up to 50 imports per month, and no saved schedules.
+            </li>
+            <li>
+              <strong>Pro Plan:</strong> $24/month or $19/month billed yearly,
+              up to 120 imports per month, and up to 5 saved schedules.
+            </li>
+            <li>
+              <strong>Team Plan:</strong> $49/month or $39/month billed yearly,
+              up to 250 imports per month, and up to 10 saved schedules.
+            </li>
+            <li>
+              <strong>Business Plan:</strong> $74/month or $64/month billed
+              yearly, up to 600 imports per month, up to 30 saved schedules,
+              and priority processing.
+            </li>
+            <li>
+              All plans include supported source connectors, standard board
+              support, and multi subitems board support. Paid plans also
+              include unlimited templates.
             </li>
           </ul>
 

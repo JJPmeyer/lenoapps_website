@@ -25,6 +25,11 @@ Data Bridge has two main screens:
 - **Import Setup:** Configure source, board target, hierarchy options, and field mapping
 - **Template Manager:** Save and reuse templates, run loads, edit templates, and manage schedules
 
+It also includes:
+
+- **Connections:** View, reconnect, disconnect, and refresh connected source accounts
+- **In-app Support Chat:** Contact support directly from inside the app without leaving monday.com
+
 ## Source Coverage
 
 - Data Bridge supports multiple source types through one workflow

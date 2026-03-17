@@ -6,13 +6,30 @@ sidebar_position: 2
 
 Use this guide for first-time setup and your first data load.
 
-> Replace `[YOUR INSTALL LINK]` with your live monday.com install URL.
-
 ## Step 1: Install the app
 
-1. Open your install link: `[YOUR INSTALL LINK]`
-2. Click **Install app**
-3. Select the monday.com workspace/account where you want to use it
+### Quick Install
+
+Click the button below to install Data Bridge directly:
+
+<a href="https://auth.monday.com/oauth2/authorize?client_id=484608419f0250dcd64886aaab18e802&response_type=install">
+      <img
+        alt="Add to monday.com"
+        height="32"
+        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/Tal/4b5d9548-0598-436e-a5b6-9bc5f29ee1d9_Group12441.png"
+      />
+    </a>
+
+### Manual Installation via Marketplace
+
+If you prefer to install through the monday.com Apps Marketplace, follow these steps:
+
+1. Log in to your monday.com account.
+2. Click on the Apps Marketplace icon located in the top-right corner.
+3. Use the search bar within the marketplace to find **Data Bridge**.
+4. Locate **Data Bridge by Leno Apps** in the search results.
+5. Click **Install App**.
+6. Follow the on-screen instructions to review and approve the required permissions.
 
 ## Step 2: Open the app in monday
 
@@ -39,6 +56,35 @@ New sources are added regularly, and you can request any source at
 1. Choose your source type
 2. Authenticate or upload, depending on connector type
 3. Provide the required source details (for example a URL, file, or connection reference)
+
+## Manage Connections
+
+Users can manage connected data sources from one place.
+
+### Where to find it
+
+- Top-right link: **Connections**
+
+### What users can do
+
+- View all connected Google accounts
+- See connection status: **Connected** or **Needs reconnect**
+- Reconnect an account if access has expired
+- Disconnect an account they no longer want to use
+- Refresh the connection list and status
+
+### What information is shown per connection
+
+- Connected Google account email
+- Current status
+- Usage reference showing how many templates and saved schedules use that connection
+- Last updated timestamp
+
+### Important behavior
+
+- Disconnecting removes the stored Google access for that account connection
+- Templates and saved schedules are not deleted
+- Imports using that connection will not run until the user reconnects
 
 ## Step 6: Select what to load
 
@@ -71,6 +117,21 @@ Data Bridge is built to support both standard boards and multi subitems boards i
 ## Step 10: Stop if needed
 
 If a run is active and you need to stop it, click **Stop**.
+
+## Support Chat
+
+Data Bridge includes an in-app support chat so users can get help without leaving monday.com.
+
+### Where to find it
+
+- Bottom-right corner of the app
+- Button label: **💬 Data Bridge**
+
+### How it works
+
+- Click the chat button to open the support window
+- Send your question directly from inside the app
+- If we are offline, you can still leave a message and receive a follow-up by email
 
 ## Quick Tips
 

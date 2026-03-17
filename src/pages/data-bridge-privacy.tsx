@@ -11,7 +11,7 @@ export default function DataBridgePrivacy(): React.ReactNode {
       <main className="container margin-vert--lg">
         <Heading as="h1">Privacy Policy - Data Bridge</Heading>
         <p>
-          <strong>Last Updated:</strong> March 10, 2026
+          <strong>Last Updated:</strong> March 11, 2026
         </p>
 
         <section>
@@ -31,63 +31,47 @@ export default function DataBridgePrivacy(): React.ReactNode {
           <Heading as="h3">2.1 User Information</Heading>
           <ul>
             <li>
-              <strong>User Profile Data:</strong> We collect your monday.com
-              user ID to identify your app access and usage.
+              <strong>monday Identifiers:</strong> We store your monday.com
+              account ID (<code>account_id</code>), user ID (
+              <code>user_id</code>), and install ID (
+              <code>install_id</code>) so app data is scoped to the correct
+              account and install.
             </li>
             <li>
-              <strong>Account Information:</strong> We collect your monday.com
-              account ID and install information for subscription management and
-              app operation.
-            </li>
-            <li>
-              <strong>Support Request Data:</strong> If you contact us for
-              support, your name and email may be used to respond to your
-              request.
+              <strong>Support Request Data:</strong> If you submit a support
+              request or request a new source, we may store the request text and
+              the identity information you provide so we can respond.
             </li>
           </ul>
 
-          <Heading as="h3">2.2 Board and Item Data</Heading>
+          <Heading as="h3">2.2 Import Configuration Data</Heading>
           <ul>
             <li>
-              <strong>Board Structure:</strong> We read board, group, column,
-              and item information so imports can be set up correctly.
+              <strong>OAuth Credentials:</strong> We store the OAuth
+              credentials required for supported integrations, including monday
+              and Google credentials, in monday Secure Storage.
             </li>
             <li>
-              <strong>Import Context:</strong> We use board IDs, group IDs, and
-              item IDs to run and track imports.
+              <strong>Import Settings:</strong> We store template name, source
+              settings, field mappings, board and group IDs, and schedule
+              settings.
             </li>
             <li>
-              <strong>Import Results:</strong> We may store reference
-              information between your source data and monday items to support
-              repeat imports and job results.
+              <strong>Import Run Metadata:</strong> We store status, counts,
+              timestamps, and error messages so imports can be tracked and
+              reviewed for troubleshooting.
             </li>
           </ul>
 
-          <Heading as="h3">2.3 Application Data</Heading>
+          <Heading as="h3">2.3 Source Data Used for Imports</Heading>
           <ul>
             <li>
-              <strong>Source Configurations:</strong> We store the source
-              details needed to run your imports, such as selected files,
-              connected sheets, and related import settings.
+              <strong>Google Sheets Data:</strong> We fetch the Google Sheets
+              values selected by the customer to execute the import.
             </li>
             <li>
-              <strong>Template and Schedule Configurations:</strong> We store
-              saved mappings, templates, schedules, and run settings so imports
-              can be repeated reliably.
-            </li>
-            <li>
-              <strong>Connection Credentials:</strong> For supported
-              integrations, we may securely store the access details needed to
-              keep your connections working.
-            </li>
-            <li>
-              <strong>Import Logs and Error Details:</strong> We store import
-              status, progress, and error details to help diagnose failures and
-              data issues.
-            </li>
-            <li>
-              <strong>Temporary Upload Data:</strong> Excel uploads may be
-              stored temporarily while an import is being processed.
+              <strong>Excel Data:</strong> Excel data may be staged
+              temporarily in chunks for background processing and then removed.
             </li>
           </ul>
         </section>
@@ -98,36 +82,33 @@ export default function DataBridgePrivacy(): React.ReactNode {
           <Heading as="h3">3.1 Storage Infrastructure</Heading>
           <ul>
             <li>
-              <strong>monday.com Hosted Infrastructure:</strong> Data Bridge
-              uses monday.com's hosted infrastructure and secure storage
-              services to operate the app.
+              <strong>monday Infrastructure:</strong> Data is stored on monday
+              infrastructure, including Document DB and Secure Storage.
             </li>
             <li>
-              <strong>Account Isolation:</strong> Data is scoped to your monday
-              account. Imports can work across multiple boards within the same
-              account, but not across accounts.
+              <strong>Account Isolation:</strong> Data is scoped by monday
+              account so each account's data remains separate.
             </li>
           </ul>
 
           <Heading as="h3">3.2 Data Encryption and Security</Heading>
           <ul>
             <li>
-              <strong>Encryption at Rest:</strong> Data is protected using the
-              storage and encryption controls provided by monday.com's
-              infrastructure.
+              <strong>Access Control:</strong> Access is restricted through
+              authenticated requests and session validation.
             </li>
             <li>
-              <strong>Transport Security:</strong> Communications are protected
-              using secure transport protocols.
+              <strong>Token Protection:</strong> Tokens and secrets are never
+              exposed in the frontend and are not written to logs.
             </li>
             <li>
-              <strong>Access Control:</strong> Access is restricted to
-              authorized systems and authorized personnel.
+              <strong>Transport Security:</strong> Data is transmitted over
+              HTTPS.
             </li>
             <li>
-              <strong>Operational Review:</strong> Stored import data and logs
-              may be accessed by authorized personnel when needed for
-              troubleshooting, security review, or compliance matters.
+              <strong>Temporary Data Cleanup:</strong> Temporary staged Excel
+              payloads are deleted after processing or cancellation, with a TTL
+              fallback.
             </li>
           </ul>
         </section>
@@ -136,21 +117,20 @@ export default function DataBridgePrivacy(): React.ReactNode {
           <Heading as="h2">5. How We Use Your Information</Heading>
           <ul>
             <li>
-              <strong>Import Operations:</strong> Run imports from supported
-              source connectors into monday.com boards.
+              <strong>Authentication:</strong> Authenticate supported
+              integrations.
             </li>
             <li>
-              <strong>Configuration Management:</strong> Save mappings,
-              templates, schedules, and import settings.
+              <strong>Import Operations:</strong> Execute and resume imports
+              reliably.
             </li>
             <li>
-              <strong>Usage Tracking:</strong> Monitor import activity and
-              enforce plan-based limits such as monthly imports and scheduling
-              limits.
+              <strong>App Experience:</strong> Show progress and import history
+              in the user interface.
             </li>
             <li>
-              <strong>Support and Troubleshooting:</strong> Review logs and
-              error details to resolve issues and improve reliability.
+              <strong>Scheduling and Support:</strong> Support scheduling and
+              customer support requests.
             </li>
             <li>
               <strong>No Model Training:</strong> We do not use customer data
@@ -196,20 +176,13 @@ export default function DataBridgePrivacy(): React.ReactNode {
           <Heading as="h3">7.1 Data Retention</Heading>
           <ul>
             <li>
-              <strong>Import Configuration Data:</strong> Source settings,
-              mappings, templates, schedules, and related job data are retained
-              as long as necessary to provide the service, unless earlier
-              deletion is required.
+              <strong>Import Data:</strong> Import configuration data and run
+              metadata are retained as needed to operate the service and support
+              the app.
             </li>
             <li>
-              <strong>Temporary Excel Upload Data:</strong> Excel staging data
-              has a default retention target of 24 hours, with earlier cleanup
-              on completion, error, or cancellation.
-            </li>
-            <li>
-              <strong>Operational Logs:</strong> Import logs and row-level error
-              details are retained as needed for service operation and
-              troubleshooting.
+              <strong>Temporary Excel Data:</strong> Staged Excel data is
+              removed after processing or cancellation, with a TTL fallback.
             </li>
           </ul>
 
@@ -217,17 +190,8 @@ export default function DataBridgePrivacy(): React.ReactNode {
           <ul>
             <li>
               <strong>Automatic Data Clearing:</strong> When Data Bridge is
-              uninstalled, account-scoped stored data and saved connection
-              records for that account are removed.
-            </li>
-            <li>
-              <strong>Deletion Timeline:</strong> Temporary data may be removed
-              automatically on completion, error, cancellation, or account
-              cleanup.
-            </li>
-            <li>
-              <strong>No Backups After Deletion:</strong> No backups are
-              retained after deletion.
+              uninstalled, account data cleanup is triggered for that account's
+              Document DB and Secure Storage records.
             </li>
           </ul>
         </section>
